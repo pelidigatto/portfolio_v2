@@ -1,20 +1,25 @@
 'use client';
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
+import Link from 'next/link';
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
+    const verzeichnis =  usePathname();
+
+
     return (
-        <header className="backdrop-blur m-5 rounded-md shadow sticky top-0 z-50">
+        <header className="backdrop-blur mx-5 rounded-md shadow sticky top-4 z-50">
+            {/* <span>PN: {verzeichnis}</span> */}
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                 <div className="flex items-center">
-                    <span className="text-xl font-extralight ml-2">thoenelt.dev</span>
+                    
+                    <Link className="text-xl font-extralight ml-2 flex" href='/'>thoenelt<span className='hightlight'>.dev </span> <div className='hidden sm:block ps-1'> | Full-Stack <span className='hightlight'>Webentwickler</span></div></Link>
                 </div>
                 <div className="hidden md:flex space-x-4">
-                    <a href="#" className="text-gray-700 hover:text-gray-900">Home</a>
-                    <a href="#" className="text-gray-700 hover:text-gray-900">About</a>
-                    <a href="#" className="text-gray-700 hover:text-gray-900">Services</a>
-                    <a href="#" className="text-gray-700 hover:text-gray-900">Contact</a>
+                    {verzeichnis === '/impressum/' ? (<Link href="/impressum/" className="hightlight text-gray-700 hover:text-green-500">Impressum</Link>) : ( <Link href="/impressum/" className="text-gray-700 hover:text-green-500 ">Impressum</Link>)}
+                    {verzeichnis === '/datenschutz/' ? (<Link href="/datenschutz/" className="hightlight text-gray-700 hover:text-green-500">Datenschutz</Link>) : ( <Link href="/datenschutz/" className="text-gray-700 hover:text-green-500 ">Datenschutz</Link>)}
                 </div>
                 <div className="md:hidden">
                     <button onClick={() => setIsOpen(!isOpen)} className="text-gray-700 focus:outline-none">
@@ -25,11 +30,10 @@ export default function Header() {
                 </div>
             </div>
             {isOpen && (
-                <div className="md:hidden">
-                    <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Home</a>
-                    <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">About</a>
-                    <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Services</a>
-                    <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">Contact</a>
+                <div className="grid p-5 border-t-2 md:hidden">
+                    {verzeichnis === '/impressum/' ? (<Link href="/impressum/" className="hightlight text-gray-700 hover:text-green-500 hightlight">Impressum</Link>) : (<Link href="/impressum/" className="hightlight text-gray-700 hover:text-green-500 ">Impressum</Link> )}               
+                    {verzeichnis === '/datenschutz/' ? (<Link href="/datenschutz/" className="hightlight text-gray-700 hover:text-green-500">Datenschutz</Link>) : ( <Link href="/datenschutz/" className="text-gray-700 hover:text-green-500 ">Datenschutz</Link>)}
+
                 </div>
             )}
         </header>

@@ -1,0 +1,44 @@
+name: Deploy Next.js App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Next.js app
+        run: npm run build
+
+      - name: Deploy to server
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_USER: your_ssh_username
+          SSH_HOST: your_server_ip
+          APP_DIRECTORY: /path/to/your/app
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan $SSH_HOST >> ~/.ssh/known_hosts
+          rsync -avz --delete --exclude='.next' ./ $SSH_USER@$SSH_HOST:$APP_DIRECTORY
+          ssh $SSH_USER@$SSH_HOST "
+            cd $APP_DIRECTORY &&
+            npm install &&
+            npm run build &&
+            pm2 restart all
+          "
