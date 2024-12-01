@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to server
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SSH_USER: root
+          SSH_USER: florian
           SSH_HOST: 89.58.49.252
           APP_DIRECTORY: /var/www/portfolio
         run: |
