@@ -5,7 +5,7 @@ import Header from "./components/Header/header";
 
 
 export const metadata: Metadata = {
-  title: "Flroian Thönelt | Full-Stack Webentwickler",
+  title: "Florian Thönelt | Full-Stack Webentwickler",
   description: "Florian Thönelt | Full-Stack Webentwickler aus Hannover",
   robots: "index, follow"
 };
