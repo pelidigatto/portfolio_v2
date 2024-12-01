@@ -27,9 +27,9 @@ jobs:
       - name: Deploy to server
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SSH_USER: your_ssh_username
-          SSH_HOST: your_server_ip
-          APP_DIRECTORY: /path/to/your/app
+          SSH_USER: root
+          SSH_HOST: 89.58.49.252
+          APP_DIRECTORY: /var/www/portfolio
         run: |
           mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
