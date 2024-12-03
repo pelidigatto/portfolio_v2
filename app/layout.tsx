@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <head>
-        <script type="text/javascript" src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"></script>
+        <script async type="text/javascript" src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"></script>
         <Script id="matomo-script" strategy="afterInteractive">
             {`
               var _paq = window._paq = window._paq || [];
