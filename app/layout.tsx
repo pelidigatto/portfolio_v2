@@ -6,8 +6,10 @@ import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: "Florian Thönelt | Full-Stack Webentwickler",
-  description: "Florian Thönelt | Full-Stack Webentwickler aus Hannover",
-  robots: "index, follow"
+  description: "Florian Thönelt | Leidenschaftlicher Front-End und Back-End Webentwickler aus Hannover",
+  robots: "index, follow",
+  authors: [{ name: "Florian Thönelt" }],
+  keywords: ["Webentwicklung", "Webdesign", "Full-Stack", "Hannover", "React", "Next.js", "TailwindCSS", "Node.js", "Express", "MySQL","PHP","JavaScript","HTML","CSS"]
 };
 
 export default function RootLayout({

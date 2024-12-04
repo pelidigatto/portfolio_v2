@@ -10,12 +10,12 @@ export default function Home() {
                 Moin, ich bin Florian &#x1F44B;! 
               </div>
               <div className="text-2xl md:text-4xl font-thin text-center">
-                Ein leidenschaftlicher Full-Stack <span className="hightlight">Webentwickler</span> aus Hannover
+                <h1>Ein leidenschaftlicher Full-Stack <span className="hightlight">Webentwickler</span> aus Hannover</h1>
               </div>
             </div>
             <div className="col-span-12 xl:col-span-3  flex justify-center my-10">
               <div className=" cvPicture shadow">
-                <Image src="/foto_light.jpg" width={400} height={400} alt="Hero" />
+                <Image src="/foto_light.jpg" width={400} height={400} alt="Florian Thönelt" title="Florian Thönelt" />
               </div>
             </div>
             <div className="col-span-12 xl:col-span-9 my-5 sm:m-12  bg-slate-100 rounded-lg shadow text-center p-6">
