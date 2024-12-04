@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
       <>
-        <div className="flex justify-center items-center  border-b-2 my-10">
+        <div className="flex justify-center items-center  border-b my-10">
           <div className="grid grid-cols-12 items-center justify-center">
             <div className="col-span-12 my-10">
               <div className="text-2xl md:text-4xl font-thin text-center">
@@ -28,14 +28,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center  border-b-2 my-10">
+        <div className="flex justify-center items-center  border-b my-10">
           <div className="grid grid-cols-12 items-center justify-center">
             <div className="col-span-12 my-10">
               <div className="text-2xl md:text-4xl font-thin text-center">
                 <h2>Über mich</h2>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-6">
+            <div className="col-span-12 md:col-span-6  p-3 border-0 md:border-e my-1">
               <div className="font-thin text-center">
                 <p className="my-3">
                   Moin und herzlich willkommen auf meinem Portfolio.
