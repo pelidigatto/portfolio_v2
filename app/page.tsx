@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { faCoffee, faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+import {  faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
