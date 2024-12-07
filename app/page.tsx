@@ -91,7 +91,7 @@ export default function Home() {
 
         <div className="flex justify-center items-center my-10">
           <div className="container mx-auto w-full h-full">
-            <div className="relative wrap overflow-hidden p-2 sm:p-10 h-full">
+            <div className="relative wrap p-2 sm:p-10 h-full">
               <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border-0 md:border timeline" /* style={{ left: '50%' }} */></div>
               
               <div className="mb-8 flex justify-start sm:justify-between items-center w-full right-timeline">
@@ -99,8 +99,11 @@ export default function Home() {
                 <div className="z-20 flex items-center order-1 shadow-xl rounded-full mx-1" >
                 <span className="w-7"><FontAwesomeIcon icon={faBriefcase} /></span>
                 </div>
-                <div className="order-1 bg-slate-100 rounded-lg shadow-xl w-full  sm:w-5/12 px-6 py-4 ">
-                  <h3 className="mb-3 font-bold text-gray-800 text-sm md:text-xl">Seit 2021: Webentwickler</h3>
+                <div className="order-1 bg-slate-100 rounded-lg shadow-xl w-full  sm:w-5/12 px-6 py-4 relative">
+                  <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
+                    <span className="text-white text-sm md:text-xl">Aktuell seit 2021</span>
+                  </div>
+                  <h3 className="mb-3 font-bold text-gray-800 text-sm md:text-xl">Webentwickler</h3>
                   <h4 className="mb-2 font-thin text-gray-800 text-md">1A Infosysteme GmbH, Hannover</h4>
                   {/* <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
                 </div>
@@ -111,8 +114,11 @@ export default function Home() {
                 <div className="z-20 flex items-center order-1 shadow-xl rounded-full mx-1" >
                   <span className="w-7"><FontAwesomeIcon icon={faGraduationCap} /></span>
                 </div>
-                <div className="order-1 bg-hightlight rounded-lg shadow-xl w-full  sm:w-5/12 px-6 py-4 ">
-                  <h3 className="mb-3 font-bold text-white text-sm md:text-xl ">2018 - 2021: Ausbildung Fachinfinformatiker - Anwendungsentwicklung</h3>
+                <div className="order-1 bg-hightlight rounded-lg shadow-xl w-full  sm:w-5/12 px-6 py-4 relative">
+                  <div className="absolute -top-4 right-5 border px-3 bg-slate-100  rounded-md shadow">
+                    <span className="text-gray-800 text-sm md:text-xl">2018 - 2021</span>
+                  </div>
+                  <h3 className="mb-3 font-bold text-white text-sm md:text-xl ">Ausbildung Fachinfinformatiker - Anwendungsentwicklung</h3>
                   <h4 className="mb-2 font-thin text-white text-md">1A Infosysteme GmbH, Hannover</h4>
                   {/* <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
                 </div>
@@ -123,7 +129,10 @@ export default function Home() {
                 <div className="z-20 flex items-center order-1 shadow-xl rounded-full mx-1" >
                 <span className="w-7"><FontAwesomeIcon icon={faGraduationCap} /></span>
                 </div>
-                <div className="order-1 bg-slate-100 rounded-lg shadow-xl w-full  sm:w-5/12 px-6 py-4 ">
+                <div className="order-1 bg-slate-100 rounded-lg shadow-xl w-full  sm:w-5/12 px-6 py-4 relative">
+                  <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
+                    <span className="text-white text-sm md:text-xl">2012 - 2014</span>
+                  </div>
                   <h3 className="mb-3 font-bold text-gray-800 text-sm md:text-xl">2012 - 2014: Ausbildung Informationstechnischer Assitent (ITA)</h3>
                   <h4 className="mb-2 font-thin text-gray-800 text-md">b.i.b. International College, Hannover</h4>
                   {/* <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
