@@ -34,6 +34,10 @@ body {
 }
 
 
+.bg-hightlight {
+  background-color: #4bb74a;
+}
+
 .hightlight {
   color: #4bb74a;
 }
@@ -65,3 +69,13 @@ u {
 
 
 }
+
+.timeline {
+  left: 0;
+}
+
+@media (min-width: 640px) { 
+  .timeline {
+    left: 50%;
+  }
+} 
