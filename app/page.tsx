@@ -42,21 +42,21 @@ export default function Home() {
               <div className="font-thin text-center">
                 <p className="my-3">
                   Moin und herzlich willkommen auf meinem Portfolio.
-                  Ich bin Florian, ein leidenschaftlicher <b className="hightlight font-bold">Fullstack Webdeveloper</b> aus der schönen niedersächsischen Landeshauptstadt Hannover.
+                  Ich bin Florian, ein leidenschaftlicher <b className="hightlight ">Fullstack Webdeveloper</b> aus der schönen niedersächsischen Landeshauptstadt Hannover.
                 </p>
                 <p className="my-3">
-                  Für mich ist Web-Entwicklung viel mehr als nur ein Beruf. Es ist meine große <b className="hightlight font-bold">Leidenschaft</b>, für die ich gerne viel Zeit in meiner Freizeit investiere, weil es mir einfach unglaublich viel Freude bereitet. 
+                  Für mich ist Web-Entwicklung viel mehr als nur ein Beruf. Es ist meine große <b className="hightlight ">Leidenschaft</b>, für die ich gerne viel Zeit in meiner Freizeit investiere, weil es mir einfach unglaublich viel Freude bereitet. 
                   Es ist ein wunderbares Gefühl, sich in seiner Freizeit so intensiv mit etwas beschäftigen zu können, das einem so viel gibt.
                 </p>
                 <p className="my-3">
-                  Seit meiner Ausbildung zum <b className="hightlight font-bold">Fachinformatiker für Anwendungsentwicklung</b> im Jahr 2021 konnte ich viele wertvolle Erfahrungen sammeln und diese kontenurlich verbessern.
+                  Seit meiner Ausbildung zum <b className="hightlight ">Fachinformatiker für Anwendungsentwicklung</b> im Jahr 2021 konnte ich viele wertvolle Erfahrungen sammeln und diese kontenurlich verbessern.
                 </p>
                 <p className="my-3"> 
-                  In der <b className="hightlight font-bold">Backend-Entwicklung</b> arbeite ich am liebsten mit PHP und verschiedenen Frameworks wie z.B. Laravell.
+                  In der <b className="hightlight ">Backend-Entwicklung</b> arbeite ich am liebsten mit PHP und verschiedenen Frameworks wie z.B. Laravell.
                   Aber auch hier bleibe ich immer am Ball und lerne gerne Neues dazu, um mein Skillset ständig zu erweitern.
                 </p>
                 <p className="my-3">
-                  In der <b className="hightlight font-bold">Frontend-Entwicklung</b> bin ich ein großer Fan von React und Next.js. 
+                  In der <b className="hightlight ">Frontend-Entwicklung</b> bin ich ein großer Fan von React und Next.js. 
                   Mit TailwindCSS habe ich eine großartige Möglichkeit gefunden, meine Projekte schnell und effizient zu gestalten.
                 </p>
               </div>
@@ -103,7 +103,7 @@ export default function Home() {
                   <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
                     <span className="text-white text-sm md:text-xl">Aktuell seit 2021</span>
                   </div>
-                  <h3 className="mb-3 font-bold text-gray-800 text-sm md:text-xl">Webentwickler</h3>
+                  <h3 className="mb-3 font-thin text-gray-800 text-sm md:text-xl">Webentwickler</h3>
                   <h4 className="mb-2 font-thin text-gray-800 text-md">1A Infosysteme GmbH, Hannover</h4>
                   {/* <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
                 </div>
@@ -118,7 +118,7 @@ export default function Home() {
                   <div className="absolute -top-4 right-5 border px-3 bg-slate-100  rounded-md shadow">
                     <span className="text-gray-800 text-sm md:text-xl">2018 - 2021</span>
                   </div>
-                  <h3 className="mb-3 font-bold text-white text-sm md:text-xl ">Ausbildung Fachinfinformatiker - Anwendungsentwicklung</h3>
+                  <h3 className="mb-3 font-thin text-white text-sm md:text-xl ">Ausbildung Fachinfinformatiker für Anwendungsentwicklung (FIAE)</h3>
                   <h4 className="mb-2 font-thin text-white text-md">1A Infosysteme GmbH, Hannover</h4>
                   {/* <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
                 </div>
@@ -133,7 +133,7 @@ export default function Home() {
                   <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
                     <span className="text-white text-sm md:text-xl">2012 - 2014</span>
                   </div>
-                  <h3 className="mb-3 font-bold text-gray-800 text-sm md:text-xl">2012 - 2014: Ausbildung Informationstechnischer Assitent (ITA)</h3>
+                  <h3 className="mb-3 font-thin text-gray-800 text-sm md:text-xl">2012 - 2014: Ausbildung Informationstechnischer Assitent (ITA)</h3>
                   <h4 className="mb-2 font-thin text-gray-800 text-md">b.i.b. International College, Hannover</h4>
                   {/* <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
                 </div>
