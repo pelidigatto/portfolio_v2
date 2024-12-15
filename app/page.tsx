@@ -1,9 +1,10 @@
 import Image from "next/image";
 import {  faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import SkillBubbles from "./components/SkillBubbles/skillbubbles";
 
 export default function Home() {
+  const skills = "HTML,CSS,JavaScript,PHP,Next.JS,React,Node.JS,Vue.JS,TailwindCSS,ColdFuison,Bootstrap,GIT,SEO,Bash,Shell,Linux,Wordpress,RestAPI,MySQL,C#";
   return (
       <>
         <div className="flex justify-center items-center  border-b my-10">
@@ -62,28 +63,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-span-12 md:col-span-6 ">
-              <div className="flex flex-row justify-center flex-wrap">
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">HTML</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">CSS</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">JavaScript</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">PHP</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">Next.JS</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">React</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">Node.JS</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">Vue.JS</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">TailwindCSS</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">ColdFuison</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">Bootstrap</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">GIT</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">SEO</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">Bash</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">Shell</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">Linux</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">Wordpress</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">RestAPI</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">MySQL</div>
-                <div className="font-thin m-3 border p-3 bg-slate-100 rounded-lg shadow text-center">C#</div>
-              </div>
+              <SkillBubbles skills={skills}/>
             </div>
           </div>
         </div>
