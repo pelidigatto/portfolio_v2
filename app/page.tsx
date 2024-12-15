@@ -91,6 +91,9 @@ export default function Home() {
 
         <div className="flex justify-center items-center my-10">
           <div className="container mx-auto w-full h-full">
+              <div className="text-2xl md:text-4xl font-thin text-center">
+                <h2>Mein Werdegang</h2>
+              </div>
             <div className="relative wrap p-2 sm:p-10 h-full">
               <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border-0 md:border timeline" /* style={{ left: '50%' }} */></div>
               
@@ -101,11 +104,13 @@ export default function Home() {
                 </div>
                 <div className="order-1 bg-slate-100 rounded-lg shadow-xl w-full  sm:w-5/12 px-6 py-4 relative">
                   <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
-                    <span className="text-white text-sm md:text-xl">Aktuell seit 2021</span>
+                    <span className="text-white text-sm ">Aktuell seit 2021</span>
                   </div>
                   <h3 className="mb-3 font-thin text-gray-800 text-sm md:text-xl">Webentwickler</h3>
                   <h4 className="mb-2 font-thin text-gray-800 text-md">1A Infosysteme GmbH, Hannover</h4>
-                  {/* <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
+                  <p className="font-thin text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+                    Als Webentwickler bei der 1A-Infosysteme GmbH bin ich für die Frontend-Entwicklung unserer Portale (HTML, CSS, JavaScript, ColdFusion) und die Umsetzung individueller Kundenwebseiten in WordPress verantwortlich. Im Backend entwickle ich effiziente Importprozesse und REST-API-Schnittstellen in PHP.
+                  </p>
                 </div>
               </div>
 
@@ -116,11 +121,12 @@ export default function Home() {
                 </div>
                 <div className="order-1 bg-hightlight rounded-lg shadow-xl w-full  sm:w-5/12 px-6 py-4 relative">
                   <div className="absolute -top-4 right-5 border px-3 bg-slate-100  rounded-md shadow">
-                    <span className="text-gray-800 text-sm md:text-xl">2018 - 2021</span>
+                    <span className="text-gray-800 text-sm">2018 - 2021</span>
                   </div>
                   <h3 className="mb-3 font-thin text-white text-sm md:text-xl ">Ausbildung Fachinfinformatiker für Anwendungsentwicklung (FIAE)</h3>
                   <h4 className="mb-2 font-thin text-white text-md">1A Infosysteme GmbH, Hannover</h4>
-                  {/* <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
+                  <p className="font-thin text-sm leading-snug tracking-wide text-white  text-opacity-100">
+                  Während meiner Ausbildung zum Fachinformatiker für Anwendungsentwicklung habe ich umfassende Kenntnisse in Software- und Webentwicklung erworben. In meinem Abschlussprojekt habe ich einen Qualifizierungsprozess für Geodaten entwickelt, basierend auf der API-Schnittstelle von OpenStreetMap.                  </p>
                 </div>
               </div>
 
@@ -131,11 +137,12 @@ export default function Home() {
                 </div>
                 <div className="order-1 bg-slate-100 rounded-lg shadow-xl w-full  sm:w-5/12 px-6 py-4 relative">
                   <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
-                    <span className="text-white text-sm md:text-xl">2012 - 2014</span>
+                    <span className="text-white text-sm">2012 - 2014</span>
                   </div>
-                  <h3 className="mb-3 font-thin text-gray-800 text-sm md:text-xl">2012 - 2014: Ausbildung Informationstechnischer Assitent (ITA)</h3>
+                  <h3 className="mb-3 font-thin text-gray-800 text-sm md:text-xl ">Ausbildung Informationstechnischer Assitent (ITA)</h3>
                   <h4 className="mb-2 font-thin text-gray-800 text-md">b.i.b. International College, Hannover</h4>
-                  {/* <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
+                  <p className="font-thin text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+                  Während meiner Ausbildung zum ITA habe ich fundierte Grundlagen in IT-Systemen, Netzwerktechnik und Programmierung erlernt. Neben technischem Fachwissen lag ein besonderer Fokus auf der Entwicklung und Verwaltung von IT-Lösungen sowie der Unterstützung von Anwendern.                  </p>
                 </div>
               </div>
 
