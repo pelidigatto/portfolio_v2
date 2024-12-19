@@ -30,7 +30,7 @@ export default async function Projekte() {
                                 <div className="col-span-12 flex justify-center items-center my-3">
                                     <Image src={ProjektMeta.project_bild} alt={ProjektMeta.project_titel} width={400} height={400} className="rounded-md" />
                                 </div>
-                                <div className="col-span-12 my-3 text-xl font-thin">
+                                <div className="col-span-12 my-3 font-thin">
                                     <p>{ProjektMeta.project_beschreibung}</p>
                                 </div>
                                 <div className="cols-span-12 text-center mt-3">
