@@ -18,6 +18,7 @@ export default function Header() {
                     <Link className="text-xl font-extralight ml-2 flex" href='/'>thoenelt<span className='hightlight'>.dev </span> <div className='hidden sm:block ps-1'> | Full-Stack <span className='hightlight'>Webentwickler</span></div></Link>
                 </div>
                 <div className="hidden md:flex space-x-4">
+                    {verzeichnis === '/projekte/' ? (<Link href="/projekte/" className="hightlight text-gray-700 hover:text-green-500">Projekte</Link>) : ( <Link href="/projekte/" className="text-gray-700 hover:text-green-500 ">Projekte</Link>)}
                     {verzeichnis === '/impressum/' ? (<Link href="/impressum/" className="hightlight text-gray-700 hover:text-green-500">Impressum</Link>) : ( <Link href="/impressum/" className="text-gray-700 hover:text-green-500 ">Impressum</Link>)}
                     {verzeichnis === '/datenschutz/' ? (<Link href="/datenschutz/" className="hightlight text-gray-700 hover:text-green-500">Datenschutz</Link>) : ( <Link href="/datenschutz/" className="text-gray-700 hover:text-green-500 ">Datenschutz</Link>)}
                 </div>
@@ -31,8 +32,10 @@ export default function Header() {
             </div>
             {isOpen && (
                 <div className="grid p-5 border-t-2 md:hidden">
+                    {verzeichnis === '/projekte/' ? (<Link href="/projekte/" className="hightlight text-gray-700 hover:text-green-500">Projekte</Link>) : ( <Link href="/projekte/" className="text-gray-700 hover:text-green-500 ">Projekte</Link>)}
                     {verzeichnis === '/impressum/' ? (<Link href="/impressum/" className="hightlight text-gray-700 hover:text-green-500 hightlight">Impressum</Link>) : (<Link href="/impressum/" className="hightlight text-gray-700 hover:text-green-500 ">Impressum</Link> )}               
                     {verzeichnis === '/datenschutz/' ? (<Link href="/datenschutz/" className="hightlight text-gray-700 hover:text-green-500">Datenschutz</Link>) : ( <Link href="/datenschutz/" className="text-gray-700 hover:text-green-500 ">Datenschutz</Link>)}
+                    
 
                 </div>
             )}
