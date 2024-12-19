@@ -33,7 +33,7 @@ export default function Header() {
             {isOpen && (
                 <div className="grid p-5 border-t-2 md:hidden">
                     {verzeichnis === '/projekte/' ? (<Link href="/projekte/" className="hightlight text-gray-700 hover:text-green-500">Projekte</Link>) : ( <Link href="/projekte/" className="text-gray-700 hover:text-green-500 ">Projekte</Link>)}
-                    {verzeichnis === '/impressum/' ? (<Link href="/impressum/" className="hightlight text-gray-700 hover:text-green-500 hightlight">Impressum</Link>) : (<Link href="/impressum/" className="hightlight text-gray-700 hover:text-green-500 ">Impressum</Link> )}               
+                    {verzeichnis === '/impressum/' ? (<Link href="/impressum/" className="hightlight text-gray-700 hover:text-green-500 hightlight">Impressum</Link>) : (<Link href="/impressum/" className="text-gray-700 hover:text-green-500 ">Impressum</Link> )}               
                     {verzeichnis === '/datenschutz/' ? (<Link href="/datenschutz/" className="hightlight text-gray-700 hover:text-green-500">Datenschutz</Link>) : ( <Link href="/datenschutz/" className="text-gray-700 hover:text-green-500 ">Datenschutz</Link>)}
                     
 
