@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import path from "path";
 import fs from "fs";
-import Link from 'next/link';
+/* import Link from 'next/link'; */
 import Image from "next/image";
 export const metadata: Metadata = {
     title: "Projekte | Florian Thönelt",
@@ -19,10 +19,10 @@ export default async function Projekte() {
                         <h1>Projekte</h1>
                     </div>
                 </div>
-                {files.map(async function(d){
+                {files.map(async function(d, index) {
                     const { metadata: ProjektMeta } = await import(`@/content/${d}`);
                     return(
-                        <div className="col-span-12 my-10 border p-5 m-5">
+                        <div key={index} className="col-span-12 my-10 border p-5 m-5">
                             <div className="gird grid-cols-12">
                                 <div className="col-span-12 text-2xl md:text-4xl font-thin text-center">
                                     <h2>{ProjektMeta.project_titel}</h2>
