@@ -155,7 +155,7 @@ export default function Home() {
                 <div className="z-20 flex items-center justify-center order-1 mx-1" >
                   <a className="w-16 p-3" href="mailto:florian@thoenelt.dev" title="E-Mail an Florian Thönelt"><FontAwesomeIcon icon={faEnvelope} className="hightlight"/></a>
                   <a className="w-16 p-3" href="https://github.com/pelidigatto" title="Github Pelidigatto (Florian Thönelt)" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
-                  <a className="w-16 p-3" href="www.linkedin.com/in/florianthoenelt" title="LinkedIn Florian Thönelt" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="hightlight"/></a>
+                  <a className="w-16 p-3" href="https://www.linkedin.com/in/florianthoenelt" title="LinkedIn Florian Thönelt" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="hightlight"/></a>
                   <a className="w-16 p-3" href="https://www.xing.com/profile/Florian_Thoenelt/" title="Xing Florian Thönelt" target="_blank"><FontAwesomeIcon icon={faXing} /></a>
                 </div>
             </div>
