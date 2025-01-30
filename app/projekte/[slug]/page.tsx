@@ -1,5 +1,6 @@
 
 import { redirect } from 'next/navigation';
+import Image from "next/image";
 export default async function Page({
     params,
   }: {
@@ -16,7 +17,29 @@ export default async function Page({
     
             <title>{Metadata.title}</title>
             <meta name="description" content={Metadata.description} />
-            <Post />
+
+            <div className="flex justify-center items-center my-10">
+                <div className="grid grid-cols-12 items-center justify-center text-center">
+                    <div className="col-span-12 my-10">
+                        <div className="text-2xl md:text-4xl font-thin text-center">
+                            <h1>{Metadata.project_titel}</h1>
+                        </div>
+                    </div>
+                    <div className="col-span-12 flex justify-center items-center my-3">
+                        <Image src={Metadata.project_bild} alt={Metadata.project_titel} width={1280} height={800} className="rounded-md" />
+                    </div>
+
+                    <div className="col-span-12 my-3 font-thin">
+                        <p>{Metadata.project_beschreibung}</p>
+                    </div>
+                    <div className="col-span-12 my-3 font-thin">
+                        <Post />
+                    </div>
+                    <div className='col-span-12 my-3 flex justify-end'>
+                        <a href={Metadata.project_url} target="_blank" className="border rounded p-1 bg-green-500 hover:bg-green-800 text-white text-xl font-thin">Demo</a>
+                    </div>
+                </div>
+            </div>
         </>
     }   catch (error) {
         console.log(error)

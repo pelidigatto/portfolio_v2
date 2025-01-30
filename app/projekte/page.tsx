@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import path from "path";
 import fs from "fs";
-/* import Link from 'next/link'; */
+import Link from 'next/link';
 import Image from "next/image";
 export const metadata: Metadata = {
     title: "Projekte | Florian Thönelt",
@@ -34,8 +34,8 @@ export default async function Projekte() {
                                     <p>{ProjektMeta.project_beschreibung}</p>
                                 </div>
                                 <div className="cols-span-12 text-center mt-3">
-                                    {/* <Link href={d.replace('.mdx','/')} className="border rounded p-1 bg-green-500 hover:bg-green-800 text-white text-xl font-thin">Mehr erfahren</Link> */}
-                                    <a href={ProjektMeta.project_url} target="_blank" className="border rounded p-1 bg-green-500 hover:bg-green-800 text-white text-xl font-thin">Mehr erfahren</a>
+                                    <Link href={d.replace('.mdx','/')} className="border rounded p-1 bg-green-500 hover:bg-green-800 text-white text-xl font-thin">Mehr erfahren</Link>
+                                    {/* <a href={ProjektMeta.project_url} target="_blank" className="border rounded p-1 bg-green-500 hover:bg-green-800 text-white text-xl font-thin">Mehr erfahren</a> */}
                                 </div>
                             </div>
 
