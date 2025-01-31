@@ -36,7 +36,7 @@ export default async function Page({
                         <Post />
                     </div>
                     <div className='col-span-12 my-3 flex justify-end'>
-                        <a href={Metadata.project_url} target="_blank" className="border rounded p-1 bg-green-500 hover:bg-green-800 text-white text-xl font-thin">Demo</a>
+                        <a href={Metadata.project_url} target="_blank" className="border rounded p-2 font-thin bg-green-500 hover:bg-green-600 text-white">Demo</a>
                     </div>
                 </div>
             </div>
