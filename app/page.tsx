@@ -25,7 +25,7 @@ export default function Home() {
             </div>
             <div className="col-span-12 xl:col-span-9 my-5 sm:m-12  bg-slate-100 rounded-lg shadow text-center p-6">
               <div className="dotArea"><span className="dot"></span><span className="dot"></span><span className="dot"></span></div>
-              <div className="text-xl md:text-2xl lg:text-3xl font-thin">
+              <div className="text-xl font-thin">
                 Mit Leidenschaft für die <span className="hightlight">Webentwicklung</span> erschaffe ich <u>dynamische</u> und <u>benutzerfreundliche</u> <span className="hightlight">Webseiten</span> und <span className="hightlight">Webanwendungen</span> basierend auf den <u>neuesten Technologien</u>.
               </div>
             </div>
