@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import path from "path";
 import fs from "fs";
-import Link from 'next/link';
 import Image from "next/image";
 import Btn from "../components/btn";
 export const metadata: Metadata = {
