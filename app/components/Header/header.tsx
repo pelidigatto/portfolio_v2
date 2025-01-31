@@ -8,7 +8,8 @@ export default function Header() {
 
     const verzeichnis =  usePathname();
 
-
+    const link_highlight = 'text-green-500';
+    const link = 'text-gray-700 hover:text-green-500';
     return (
         <header className="backdrop-blur mx-5 rounded-md shadow sticky top-4 z-50">
             {/* <span>PN: {verzeichnis}</span> */}
@@ -18,9 +19,9 @@ export default function Header() {
                     <Link className="text-xl font-extralight ml-2 flex" href='/'>thoenelt<span className='hightlight'>.dev </span> <div className='hidden sm:block ps-1'> | Full-Stack <span className='hightlight'>Webentwickler</span></div></Link>
                 </div>
                 <div className="hidden md:flex space-x-4">
-                    {verzeichnis === '/projekte/' ? (<Link href="/projekte/" className="hightlight text-gray-700 hover:text-green-500">Projekte</Link>) : ( <Link href="/projekte/" className="text-gray-700 hover:text-green-500 ">Projekte</Link>)}
-                    {verzeichnis === '/impressum/' ? (<Link href="/impressum/" className="hightlight text-gray-700 hover:text-green-500">Impressum</Link>) : ( <Link href="/impressum/" className="text-gray-700 hover:text-green-500 ">Impressum</Link>)}
-                    {verzeichnis === '/datenschutz/' ? (<Link href="/datenschutz/" className="hightlight text-gray-700 hover:text-green-500">Datenschutz</Link>) : ( <Link href="/datenschutz/" className="text-gray-700 hover:text-green-500 ">Datenschutz</Link>)}
+                    {verzeichnis.includes('/projekte/') ? (<Link href="/projekte/" className={link_highlight}>Projekte</Link>) : ( <Link href="/projekte/" className={link}>Projekte</Link>)}
+                    {verzeichnis.includes('/impressum/') ? (<Link href="/impressum/" className={link_highlight}>Impressum</Link>) : ( <Link href="/impressum/" className={link}>Impressum</Link>)}
+                    {verzeichnis.includes('/datenschutz/') ? (<Link href="/datenschutz/" className={link_highlight}>Datenschutz</Link>) : ( <Link href="/datenschutz/" className={link}>Datenschutz</Link>)}
                 </div>
                 <div className="md:hidden">
                     <button onClick={() => setIsOpen(!isOpen)} className="text-gray-700 focus:outline-none">
@@ -32,9 +33,9 @@ export default function Header() {
             </div>
             {isOpen && (
                 <div className="grid p-5 border-t-2 md:hidden">
-                    {verzeichnis === '/projekte/' ? (<Link href="/projekte/" className="hightlight text-gray-700 hover:text-green-500">Projekte</Link>) : ( <Link href="/projekte/" className="text-gray-700 hover:text-green-500 ">Projekte</Link>)}
-                    {verzeichnis === '/impressum/' ? (<Link href="/impressum/" className="hightlight text-gray-700 hover:text-green-500 hightlight">Impressum</Link>) : (<Link href="/impressum/" className="text-gray-700 hover:text-green-500 ">Impressum</Link> )}               
-                    {verzeichnis === '/datenschutz/' ? (<Link href="/datenschutz/" className="hightlight text-gray-700 hover:text-green-500">Datenschutz</Link>) : ( <Link href="/datenschutz/" className="text-gray-700 hover:text-green-500 ">Datenschutz</Link>)}
+                    {verzeichnis.includes('/projekte/') ? (<Link href="/projekte/" className={link_highlight}>Projekte</Link>) : ( <Link href="/projekte/" className={link}>Projekte</Link>)}
+                    {verzeichnis.includes('/impressum/')? (<Link href="/impressum/" className={link_highlight}>Impressum</Link>) : (<Link href="/impressum/" className={link}>Impressum</Link> )}               
+                    {verzeichnis.includes('/datenschutz/')  ? (<Link href="/datenschutz/" className={link_highlight}>Datenschutz</Link>) : ( <Link href="/datenschutz/" className={link}>Datenschutz</Link>)}
                     
 
                 </div>
