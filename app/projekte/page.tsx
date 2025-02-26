@@ -22,7 +22,7 @@ export default async function Projekte() {
                 {files.map(async function(d, index) {
                     const { metadata: ProjektMeta } = await import(`@/content/${d}`);
                     return(
-                        <div key={index} className="col-span-12 my-10 border p-5 m-5">
+                        <div key={index} className="col-span-12 my-10 border p-5 m-5 shadow rounded-md">
                             <div className="gird grid-cols-12">
                                 <div className="col-span-12 text-2xl md:text-4xl font-thin text-center my-5">
                                     <h2>{ProjektMeta.project_titel}</h2>

@@ -81,10 +81,10 @@ export default function Home() {
               
               <div className="mb-8 flex justify-start sm:justify-between items-center w-full right-timeline">
                 <div className="order-1 w-0  sm:w-5/12"></div>
-                <div className="z-20 flex items-center order-1 shadow-xl rounded-full mx-1" >
+                <div className="z-20 flex items-center order-1 shadow rounded-full mx-1" >
                 <span className="w-7"><FontAwesomeIcon icon={faBriefcase} /></span>
                 </div>
-                <div className="order-1 bg-slate-100 rounded-lg shadow-xl w-full  sm:w-5/12 px-6 py-4 relative">
+                <div className="order-1 bg-slate-100 rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
                   <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
                     <span className="text-white text-sm ">Aktuell seit 2021</span>
                   </div>
@@ -98,10 +98,10 @@ export default function Home() {
 
               <div className="mb-8 flex justify-start sm:justify-between flex-row sm:flex-row-reverse items-center w-full left-timeline">
                 <div className="order-1 w-0  sm:w-5/12"></div>
-                <div className="z-20 flex items-center order-1 shadow-xl rounded-full mx-1" >
+                <div className="z-20 flex items-center order-1 shadow rounded-full mx-1" >
                   <span className="w-7"><FontAwesomeIcon icon={faGraduationCap} /></span>
                 </div>
-                <div className="order-1 bg-hightlight rounded-lg shadow-xl w-full  sm:w-5/12 px-6 py-4 relative">
+                <div className="order-1 bg-hightlight rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
                   <div className="absolute -top-4 right-5 border px-3 bg-slate-100  rounded-md shadow">
                     <span className="text-gray-800 text-sm">2018 - 2021</span>
                   </div>
@@ -114,10 +114,10 @@ export default function Home() {
 
               <div className="mb-8 flex justify-start sm:justify-between items-center w-full right-timeline">
                 <div className="order-1 w-0  sm:w-5/12"></div>
-                <div className="z-20 flex items-center order-1 shadow-xl rounded-full mx-1" >
+                <div className="z-20 flex items-center order-1 shadow rounded-full mx-1" >
                 <span className="w-7"><FontAwesomeIcon icon={faGraduationCap} /></span>
                 </div>
-                <div className="order-1 bg-slate-100 rounded-lg shadow-xl w-full  sm:w-5/12 px-6 py-4 relative">
+                <div className="order-1 bg-slate-100 rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
                   <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
                     <span className="text-white text-sm">2012 - 2014</span>
                   </div>
