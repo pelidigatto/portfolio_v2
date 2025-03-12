@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
-  async redirects() {
+  /* async redirects() {
     return [
       {
         source: "/:path*", // Erfasst alle Pfade
@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
         permanent: true, // Permanente Weiterleitung (301)
       },
     ];
-  },
+  }, */
 };
 
 export default nextConfig;
