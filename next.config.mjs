@@ -4,7 +4,7 @@ import createMDX from '@next/mdx';
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   trailingSlash: true,
-  async redirects() {
+  /* async redirects() {
     return [
       
       {
@@ -19,7 +19,7 @@ const nextConfig = {
         permanent: true,
       },
     ];
-  },
+  }, */
 };
 
 const withMDX = createMDX();
