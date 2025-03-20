@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="de">
       <head>
         <script async type="text/javascript" src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"></script>
-        <Script id="matomo-script" strategy="afterInteractive">
+        {/* <Script id="matomo-script" strategy="afterInteractive">
             {`
               var _paq = window._paq = window._paq || [];
               _paq.push(['trackPageView']);
@@ -34,7 +34,7 @@ export default function RootLayout({
                 g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
               })();
             `}
-        </Script>
+        </Script> */}
       </head>
       <body
         className={` antialiased`}
