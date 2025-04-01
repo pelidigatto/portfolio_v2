@@ -86,7 +86,7 @@ export default function Home() {
                 </div>
                 <div className="order-1 bg-slate-100 rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
                   <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
-                    <span className="text-white text-sm ">Aktuell seit 2021</span>
+                    <span className="text-white text-sm ">2021 - 2025</span>
                   </div>
                   <h3 className="mb-3 font-thin text-gray-800 text-sm md:text-xl">Webentwickler</h3>
                   <h4 className="mb-2 font-thin text-gray-800 text-md">1A Infosysteme GmbH, Hannover</h4>
