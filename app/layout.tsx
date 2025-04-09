@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header/header";
 
-
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: "Florian Thönelt | Full-Stack Webentwickler",
@@ -20,11 +20,21 @@ export default function RootLayout({
   return (
     <html lang="de">
       <head>
-      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self'; img-src 'self'; connect-src 'self';" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        
-        
+        <script async type="text/javascript" src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"></script>
+        <Script id="matomo-script" strategy="afterInteractive">
+            {`
+              var _paq = window._paq = window._paq || [];
+              _paq.push(['trackPageView']);
+              _paq.push(['enableLinkTracking']);
+              (function() {
+                var u = '//matomo.thnlt.de/';
+                _paq.push(['setTrackerUrl', u+'matomo.php']);
+                _paq.push(['setSiteId', '2']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+              })();
+            `}
+        </Script>
       </head>
       <body
         className={` antialiased`}
