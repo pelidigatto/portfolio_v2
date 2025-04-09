@@ -20,6 +20,8 @@ export default function RootLayout({
   return (
     <html lang="de">
       <head>
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self'; img-src 'self'; connect-src 'self';" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />        
         <script async type="text/javascript" src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"></script>
         <Script id="matomo-script" strategy="afterInteractive">
             {`
