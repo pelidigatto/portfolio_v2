@@ -36,6 +36,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <head>
+        <title>Florian Thönelt</title>
         <script
           async
           type="text/javascript"
