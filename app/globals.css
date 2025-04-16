@@ -17,14 +17,13 @@
 body {
   color: var(--foreground);
   background: var(--background);
-
 }
 
 .cvPicture {
   overflow: hidden;
-    border-radius: 100%;
-    width: 300px;
-    height: 300px;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
 }
 
 .cvPicture img {
@@ -32,7 +31,6 @@ body {
   height: 100%;
   object-fit: cover;
 }
-
 
 .bg-hightlight {
   background-color: #4bb74a;
@@ -45,7 +43,6 @@ body {
   display: flex;
   justify-content: flex-end;
 }
-
 
 .dot {
   background: #ffc107;
@@ -66,16 +63,14 @@ u {
   text-decoration-color: #4bb74a;
   text-decoration-thickness: from-font;
   text-underline-offset: 3px;
-
-
 }
 
 .timeline {
   left: 0;
 }
 
-@media (min-width: 640px) { 
+@media (min-width: 640px) {
   .timeline {
     left: 50%;
   }
-} 
+}
