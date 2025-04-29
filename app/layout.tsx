@@ -57,7 +57,7 @@ export default function RootLayout({
             `}
         </Script>
       </head>
-      <body className={` antialiased`}>
+      <body className={`antialiased`}>
         <Header />
         <div className="relative mx-auto lg:max-w-7xl px-2 py-1">
           {children}
