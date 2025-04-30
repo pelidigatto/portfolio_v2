@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header/header";
 
-import Script from "next/script";
-
 export const metadata: Metadata = {
   title: "Florian Thönelt | Full-Stack Webentwickler",
   description:
