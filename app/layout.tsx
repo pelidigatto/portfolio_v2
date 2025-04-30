@@ -40,8 +40,7 @@ export default function RootLayout({
           type="text/javascript"
           src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"
         ></script>
-        <script defer data-domain="thoenelt.dev" src="https://plausible.thnlt.de/js/script.outbound-links.tagged-events.js"></script>
-        <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+        <script defer data-domain="thoenelt.dev" src="https://plausible.thnlt.de/js/script.js"></script>
       </head>
       <body className={`antialiased`}>
         <Header />
