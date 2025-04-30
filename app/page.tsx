@@ -131,7 +131,7 @@ export default function Home() {
               </div>
               <div className="order-1 bg-slate-100 rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
                 <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
-                  <span className="text-white text-sm ">2021 - 2025</span>
+                  <span className="text-sm">2021 - 2025</span>
                 </div>
                 <h3 className="mb-3 font-thin text-gray-800 text-sm md:text-xl">
                   Webentwickler
@@ -160,20 +160,20 @@ export default function Home() {
                 <div className="absolute -top-4 right-5 border px-3 bg-slate-100  rounded-md shadow">
                   <span className="text-gray-800 text-sm">2018 - 2021</span>
                 </div>
-                <h3 className="mb-3 font-thin text-white text-sm md:text-xl ">
+                <h3 className="mb-3 font-thin text-sm md:text-xl ">
                   Ausbildung Fachinfinformatiker für Anwendungsentwicklung
                   (FIAE)
                 </h3>
-                <h4 className="mb-2 font-thin text-white text-md">
+                <h4 className="mb-2 font-thin text-md">
                   1A Infosysteme GmbH, Hannover
                 </h4>
-                <p className="font-thin text-sm leading-snug tracking-wide text-white  text-opacity-100">
+                <p className="font-thin text-sm leading-snug tracking-wide text-opacity-100">
                   Während meiner Ausbildung zum Fachinformatiker für
                   Anwendungsentwicklung habe ich umfassende Kenntnisse in
                   Software- und Webentwicklung erworben. In meinem
                   Abschlussprojekt habe ich einen Qualifizierungsprozess für
                   Geodaten entwickelt, basierend auf der API-Schnittstelle von
-                  OpenStreetMap.{" "}
+                  OpenStreetMap.
                 </p>
               </div>
             </div>
@@ -187,7 +187,7 @@ export default function Home() {
               </div>
               <div className="order-1 bg-slate-100 rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
                 <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
-                  <span className="text-white text-sm">2012 - 2014</span>
+                  <span className="text-sm">2012 - 2014</span>
                 </div>
                 <h3 className="mb-3 font-thin text-gray-800 text-sm md:text-xl ">
                   Ausbildung Informationstechnischer Assitent (ITA)
@@ -200,7 +200,7 @@ export default function Home() {
                   Grundlagen in IT-Systemen, Netzwerktechnik und Programmierung
                   erlernt. Neben technischem Fachwissen lag ein besonderer Fokus
                   auf der Entwicklung und Verwaltung von IT-Lösungen sowie der
-                  Unterstützung von Anwendern.{" "}
+                  Unterstützung von Anwendern.
                 </p>
               </div>
             </div>

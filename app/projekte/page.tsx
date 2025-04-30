@@ -44,7 +44,7 @@ export default async function Projekte() {
                   </div>
                   <div className="cols-span-12 text-center mt-5">
                     <Btn
-                      className="border rounded p-2 font-thin bg-green-500 hover:bg-green-600 text-white"
+                      className="border rounded p-2 font-thin bg-green-500 hover:bg-green-600"
                       href={d.replace(".mdx", "/")}
                       title={ProjektMeta.project_titel}
                       text="Mehr erfahren"

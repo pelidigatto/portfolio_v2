@@ -43,7 +43,7 @@ export default async function Page({
               <a
                 href={Metadata.project_url}
                 target="_blank"
-                className="border rounded p-2 font-thin bg-green-500 hover:bg-green-600 text-white"
+                className="border rounded p-2 font-thin bg-green-500 hover:bg-green-600"
               >
                 Demo
               </a>
