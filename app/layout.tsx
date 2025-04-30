@@ -42,20 +42,8 @@ export default function RootLayout({
           type="text/javascript"
           src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"
         ></script>
-        <Script id="matomo-script" strategy="afterInteractive">
-          {`
-              var _paq = window._paq = window._paq || [];
-              _paq.push(['trackPageView']);
-              _paq.push(['enableLinkTracking']);
-              (function() {
-                var u = '//matomo.thnlt.de/';
-                _paq.push(['setTrackerUrl', u+'matomo.php']);
-                _paq.push(['setSiteId', '2']);
-                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-              })();
-            `}
-        </Script>
+        <script defer data-domain="thoenelt.dev" src="https://plausible.thnlt.de/js/script.outbound-links.tagged-events.js"></script>
+        <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
       </head>
       <body className={`antialiased`}>
         <Header />
