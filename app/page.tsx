@@ -14,7 +14,7 @@ import {
 
 export default function Home() {
   const skills =
-    "HTML,CSS,JavaScript,PHP,Next.JS,React,Node.JS,Vue.JS,TailwindCSS,ColdFuison,Bootstrap,GIT,SEO,Bash,Shell,Linux,Wordpress,RestAPI,MySQL,C#";
+    "HTML,CSS,JavaScript,PHP,Angular,Next.JS,React,Node.JS,Vue.JS,TailwindCSS,ColdFuison,Bootstrap,GIT,SEO,Bash,Shell,Linux,Wordpress,RestAPI,MySQL,C#";
   return (
     <>
       <div className="flex justify-center items-center   my-10">
