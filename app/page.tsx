@@ -122,6 +122,28 @@ export default function Home() {
               className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border-0 md:border timeline" /* style={{ left: '50%' }} */
             ></div>
 
+            <div className="mb-8 flex justify-start sm:justify-between flex-row sm:flex-row-reverse items-center w-full left-timeline">
+              <div className="order-1 w-0  sm:w-5/12"></div>
+              <div className="z-20 flex items-center order-1 shadow rounded-full mx-1">
+                <span className="w-7">
+                  <FontAwesomeIcon icon={faBriefcase} />
+                </span>
+              </div>
+              <div className="order-1 bg-hightlight rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
+                <div className="absolute -top-4 right-5 border px-3 bg-slate-100  rounded-md shadow">
+                  <span className="text-gray-800 text-sm">Seit 04.2025</span>
+                </div>
+                <h3 className="mb-3 font-thin text-sm md:text-xl ">
+                  Software Developer, Frontend
+                </h3>
+                <h4 className="mb-2 font-thin text-md">
+                  Hornetsecurity GmbH, Hannover
+                </h4>
+                <p className="font-thin text-sm leading-snug tracking-wide text-opacity-100">
+                </p>
+              </div>
+            </div>
+
             <div className="mb-8 flex justify-start sm:justify-between items-center w-full right-timeline">
               <div className="order-1 w-0  sm:w-5/12"></div>
               <div className="z-20 flex items-center order-1 shadow rounded-full mx-1">
@@ -148,6 +170,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
 
             <div className="mb-8 flex justify-start sm:justify-between flex-row sm:flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 w-0  sm:w-5/12"></div>
