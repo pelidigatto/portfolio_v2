@@ -140,11 +140,11 @@ export default function Home() {
                   1A Infosysteme GmbH, Hannover
                 </h4>
                 <p className="font-thin text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-                  Als Webentwickler bei der 1A-Infosysteme GmbH bin ich für die
+                  Als Webentwickler bei der 1A-Infosysteme GmbH war ich für die
                   Frontend-Entwicklung unserer Portale (HTML, CSS, JavaScript,
-                  ColdFusion) und die Umsetzung individueller Kundenwebseiten in
-                  WordPress verantwortlich. Im Backend entwickle ich effiziente
-                  Importprozesse und REST-API-Schnittstellen in PHP.
+                  ColdFusion) sowie für die Umsetzung individueller Kundenwebseiten zuständig.
+                  WordPress verantwortlich. Im Backend habe ich effiziente
+                  Außerdem habe ich Importprozesse und REST-API-Schnittstellen in PHP entwickelt.
                 </p>
               </div>
             </div>
