@@ -134,7 +134,7 @@ export default function Home() {
                   <span className="text-gray-800 text-sm">Seit 04.2025</span>
                 </div>
                 <h3 className="mb-3 font-thin text-sm md:text-xl ">
-                  Software Developer, Frontend
+                  Software Developer (Frontend)
                 </h3>
                 <h4 className="mb-2 font-thin text-md">
                   Hornetsecurity GmbH, Hannover
