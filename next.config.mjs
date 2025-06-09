@@ -14,5 +14,4 @@ export default withPWA({
   dest: "public",
   register: true,
   skipWaiting: true,
-  swSrc: 'public/sw.js'
 })(withMDX(baseConfig));
