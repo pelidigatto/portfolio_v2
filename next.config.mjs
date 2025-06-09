@@ -1,17 +1,27 @@
 import createMDX from "@next/mdx";
-import withPWA from "next-pwa";
 
 /** @type {import('next').NextConfig} */
-const baseConfig = {
+const nextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
   trailingSlash: true,
-  reactStrictMode: true,
+  /* async redirects() {
+    return [
+      
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'www.:domain', // Universelle Weiterleitung
+          },
+        ],
+        destination: 'https://:domain/:path*',
+        permanent: true,
+      },
+    ];
+  }, */
 };
 
 const withMDX = createMDX();
 
-export default withPWA({
-  dest: "public",
-  register: true,
-  skipWaiting: true,
-})(withMDX(baseConfig));
+export default withMDX(nextConfig);
