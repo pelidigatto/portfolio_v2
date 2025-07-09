@@ -139,8 +139,7 @@ export default function Home() {
                 <h4 className="mb-2 font-thin text-md">
                   Hornetsecurity GmbH, Hannover
                 </h4>
-                <p className="font-thin text-sm leading-snug tracking-wide text-opacity-100">
-                </p>
+                <p className="font-thin text-sm leading-snug tracking-wide text-opacity-100"></p>
               </div>
             </div>
 
@@ -164,13 +163,13 @@ export default function Home() {
                 <p className="font-thin text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
                   Als Webentwickler bei der 1A-Infosysteme GmbH war ich für die
                   Frontend-Entwicklung unserer Portale (HTML, CSS, JavaScript,
-                  ColdFusion) sowie für die Umsetzung individueller Kundenwebseiten zuständig.
-                  WordPress verantwortlich. Im Backend habe ich effiziente
-                  Außerdem habe ich Importprozesse und REST-API-Schnittstellen in PHP entwickelt.
+                  ColdFusion) sowie für die Umsetzung individueller
+                  Kundenwebseiten zuständig. WordPress verantwortlich. Im
+                  Backend habe ich effiziente Außerdem habe ich Importprozesse
+                  und REST-API-Schnittstellen in PHP entwickelt.
                 </p>
               </div>
             </div>
-
 
             <div className="mb-8 flex justify-start sm:justify-between flex-row sm:flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 w-0  sm:w-5/12"></div>
