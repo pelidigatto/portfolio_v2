@@ -10,7 +10,7 @@ const SkillBubbles = (props: SkillBubblesProps) => {
       {skills.map((skill: string, index: number) => (
         <div
           key={index}
-          className="font-thin m-3 border p-3 bg-slate-100 rounded-lg text-center"
+          className="font-thin m-3 border p-3 skill_bubbles rounded-lg text-center"
         >
           <p>{skill}</p>
         </div>

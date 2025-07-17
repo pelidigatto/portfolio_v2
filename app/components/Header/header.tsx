@@ -8,8 +8,8 @@ export default function Header() {
 
   const verzeichnis = usePathname();
 
-  const link_highlight = "text-green-500";
-  const link = "text-gray-700 hover:text-green-500";
+  const link_highlight = "font-extralight text-green-500";
+  const link = "font-extralight hover:text-green-500";
   return (
     <header className="backdrop-blur mx-5 rounded-md shadow sticky top-4 z-50">
       {/* <span>PN: {verzeichnis}</span> */}

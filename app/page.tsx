@@ -41,7 +41,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="col-span-12 xl:col-span-9 my-5 sm:m-12  bg-slate-100 rounded-lg shadow text-center p-6">
+          <div className="col-span-12 xl:col-span-9 my-5 sm:m-12  skill_container border rounded-lg shadow text-center p-6">
             <div className="dotArea">
               <span className="dot"></span>
               <span className="dot"></span>
@@ -119,7 +119,7 @@ export default function Home() {
           </div>
           <div className="relative wrap p-2 sm:p-10 h-full">
             <div
-              className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border-0 md:border timeline" /* style={{ left: '50%' }} */
+              className="border-2-2 absolute border-opacity-20  h-full border-0 md:border timeline" /* style={{ left: '50%' }} */
             ></div>
 
             <div className="mb-8 flex justify-start sm:justify-between flex-row sm:flex-row-reverse items-center w-full left-timeline">
@@ -130,8 +130,8 @@ export default function Home() {
                 </span>
               </div>
               <div className="order-1 bg-hightlight rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
-                <div className="absolute -top-4 right-5 border px-3 bg-slate-100  rounded-md shadow">
-                  <span className="text-gray-800 text-sm">Seit 04.2025</span>
+                <div className="absolute -top-4 right-5 border px-3 skill_container rounded-md shadow">
+                  <span className="text-sm">Seit 04.2025</span>
                 </div>
                 <h3 className="mb-3 font-thin text-sm md:text-xl ">
                   Software Developer (Frontend)
@@ -150,17 +150,17 @@ export default function Home() {
                   <FontAwesomeIcon icon={faBriefcase} />
                 </span>
               </div>
-              <div className="order-1 bg-slate-100 rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
+              <div className="order-1 skill_container border rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
                 <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
                   <span className="text-sm">2021 - 2025</span>
                 </div>
-                <h3 className="mb-3 font-thin text-gray-800 text-sm md:text-xl">
+                <h3 className="mb-3 font-thin  text-sm md:text-xl">
                   Webentwickler
                 </h3>
-                <h4 className="mb-2 font-thin text-gray-800 text-md">
+                <h4 className="mb-2 font-thin text-md">
                   1A Infosysteme GmbH, Hannover
                 </h4>
-                <p className="font-thin text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+                <p className="font-thin text-sm leading-snug tracking-wide text-opacity-100">
                   Als Webentwickler bei der 1A-Infosysteme GmbH war ich für die
                   Frontend-Entwicklung unserer Portale (HTML, CSS, JavaScript,
                   ColdFusion) sowie für die Umsetzung individueller
@@ -179,8 +179,8 @@ export default function Home() {
                 </span>
               </div>
               <div className="order-1 bg-hightlight rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
-                <div className="absolute -top-4 right-5 border px-3 bg-slate-100  rounded-md shadow">
-                  <span className="text-gray-800 text-sm">2018 - 2021</span>
+                <div className="absolute -top-4 right-5 border px-3 skill_container  rounded-md shadow">
+                  <span className=" text-sm">2018 - 2021</span>
                 </div>
                 <h3 className="mb-3 font-thin text-sm md:text-xl ">
                   Ausbildung Fachinfinformatiker für Anwendungsentwicklung
@@ -207,17 +207,17 @@ export default function Home() {
                   <FontAwesomeIcon icon={faGraduationCap} />
                 </span>
               </div>
-              <div className="order-1 bg-slate-100 rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
+              <div className="order-1 skill_container border rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
                 <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
                   <span className="text-sm">2012 - 2014</span>
                 </div>
-                <h3 className="mb-3 font-thin text-gray-800 text-sm md:text-xl ">
+                <h3 className="mb-3 font-thin text-sm md:text-xl ">
                   Ausbildung Informationstechnischer Assitent (ITA)
                 </h3>
-                <h4 className="mb-2 font-thin text-gray-800 text-md">
+                <h4 className="mb-2 font-thin text-md">
                   b.i.b. International College, Hannover
                 </h4>
-                <p className="font-thin text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+                <p className="font-thin text-sm leading-snug tracking-wide text-opacity-100">
                   Während meiner Ausbildung zum ITA habe ich fundierte
                   Grundlagen in IT-Systemen, Netzwerktechnik und Programmierung
                   erlernt. Neben technischem Fachwissen lag ein besonderer Fokus
