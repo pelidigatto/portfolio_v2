@@ -19,7 +19,7 @@ export default function Header() {
             thoenelt<span className="hightlight">.dev </span>{" "}
             <div className="hidden sm:block ps-1">
               {" "}
-              | Full-Stack <span className="hightlight">Webentwickler</span>
+              | Frontend <span className="hightlight">Webentwickler</span>
             </div>
           </Link>
         </div>
