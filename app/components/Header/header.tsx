@@ -75,7 +75,7 @@ export default function Header() {
         </div>
       </div>
       {isOpen && (
-        <div className="grid p-5 border-t-2 md:hidden">
+        <div className="grid p-5  md:hidden">
           {verzeichnis.includes("/projekte/") ? (
             <Link href="/projekte/" className={link_highlight}>
               Projekte
