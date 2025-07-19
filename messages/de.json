@@ -1,0 +1,11 @@
+{
+  "header": {
+    "domain": {
+      "name": "thoenelt",
+      "tld": ".dev"
+    }, "job_title" : {
+      "main": "Frontend",
+      "sub": "Webentwickler"
+    }
+  }
+}
