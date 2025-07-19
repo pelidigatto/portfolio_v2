@@ -24,8 +24,8 @@ export default function AboutMe() {
               meine große <b className="hightlight ">Leidenschaft</b>, für die
               ich gerne viel Zeit in meiner Freizeit investiere, weil es mir
               einfach unglaublich viel Freude bereitet. Es ist ein wunderbares
-              Gefühl, sich in seiner Freizeit so intensiv mit etwas
-              beschäftigen zu können, das einem so viel gibt.
+              Gefühl, sich in seiner Freizeit so intensiv mit etwas beschäftigen
+              zu können, das einem so viel gibt.
             </p>
             <p className="my-3">
               Seit meiner Ausbildung zum{" "}
@@ -36,16 +36,16 @@ export default function AboutMe() {
               diese kontenurlich verbessern.
             </p>
             <p className="my-3">
-              In der <b className="hightlight ">Backend-Entwicklung</b>{" "}
-              arbeite ich am liebsten mit PHP und verschiedenen Frameworks wie
-              z.B. Laravell. Aber auch hier bleibe ich immer am Ball und lerne
-              gerne Neues dazu, um mein Skillset ständig zu erweitern.
+              In der <b className="hightlight ">Backend-Entwicklung</b> arbeite
+              ich am liebsten mit PHP und verschiedenen Frameworks wie z.B.
+              Laravell. Aber auch hier bleibe ich immer am Ball und lerne gerne
+              Neues dazu, um mein Skillset ständig zu erweitern.
             </p>
             <p className="my-3">
-              In der <b className="hightlight ">Frontend-Entwicklung</b> bin
-              ich ein großer Fan von React und Next.js. Mit TailwindCSS habe
-              ich eine großartige Möglichkeit gefunden, meine Projekte schnell
-              und effizient zu gestalten.
+              In der <b className="hightlight ">Frontend-Entwicklung</b> bin ich
+              ein großer Fan von React und Next.js. Mit TailwindCSS habe ich
+              eine großartige Möglichkeit gefunden, meine Projekte schnell und
+              effizient zu gestalten.
             </p>
           </div>
         </div>
@@ -54,5 +54,5 @@ export default function AboutMe() {
         </div>
       </div>
     </>
-  )
+  );
 }

@@ -1,8 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin, faXing } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faXing,
+} from "@fortawesome/free-brands-svg-icons";
 
-export default function Contact(){
+export default function Contact() {
   return (
     <>
       <div className="grid grid-cols-12 items-center justify-center">
@@ -60,5 +64,5 @@ export default function Contact(){
         </div>
       </div>
     </>
-  )
+  );
 }

@@ -14,7 +14,9 @@
   }
 }
 
-body, .skill_bubbles, .skill_container {
+body,
+.skill_bubbles,
+.skill_container {
   color: var(--foreground);
   background: var(--background);
 }

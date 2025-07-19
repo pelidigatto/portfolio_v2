@@ -1,5 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBriefcase,
+  faGraduationCap,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Timeline() {
   return (
@@ -18,9 +21,9 @@ export default function Timeline() {
           <div className="mb-8 flex justify-start sm:justify-between flex-row sm:flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>
             <div className="z-20 flex items-center order-1 shadow rounded-full mx-1">
-                <span className="w-7">
-                  <FontAwesomeIcon icon={faBriefcase} />
-                </span>
+              <span className="w-7">
+                <FontAwesomeIcon icon={faBriefcase} />
+              </span>
             </div>
             <div className="order-1 bg-hightlight rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
               <div className="absolute -top-4 right-5 border px-3 skill_container rounded-md shadow">
@@ -39,9 +42,9 @@ export default function Timeline() {
           <div className="mb-8 flex justify-start sm:justify-between items-center w-full right-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>
             <div className="z-20 flex items-center order-1 shadow rounded-full mx-1">
-                <span className="w-7">
-                  <FontAwesomeIcon icon={faBriefcase} />
-                </span>
+              <span className="w-7">
+                <FontAwesomeIcon icon={faBriefcase} />
+              </span>
             </div>
             <div className="order-1 skill_container border rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
               <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
@@ -57,9 +60,9 @@ export default function Timeline() {
                 Als Webentwickler bei der 1A-Infosysteme GmbH war ich für die
                 Frontend-Entwicklung unserer Portale (HTML, CSS, JavaScript,
                 ColdFusion) sowie für die Umsetzung individueller
-                Kundenwebseiten zuständig. WordPress verantwortlich. Im
-                Backend habe ich effiziente Außerdem habe ich Importprozesse
-                und REST-API-Schnittstellen in PHP entwickelt.
+                Kundenwebseiten zuständig. WordPress verantwortlich. Im Backend
+                habe ich effiziente Außerdem habe ich Importprozesse und
+                REST-API-Schnittstellen in PHP entwickelt.
               </p>
             </div>
           </div>
@@ -67,17 +70,16 @@ export default function Timeline() {
           <div className="mb-8 flex justify-start sm:justify-between flex-row sm:flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>
             <div className="z-20 flex items-center order-1 shadow rounded-full mx-1">
-                <span className="w-7">
-                  <FontAwesomeIcon icon={faGraduationCap} />
-                </span>
+              <span className="w-7">
+                <FontAwesomeIcon icon={faGraduationCap} />
+              </span>
             </div>
             <div className="order-1 bg-hightlight rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
               <div className="absolute -top-4 right-5 border px-3 skill_container  rounded-md shadow">
                 <span className=" text-sm">2018 - 2021</span>
               </div>
               <h3 className="mb-3 font-thin text-sm md:text-xl ">
-                Ausbildung Fachinfinformatiker für Anwendungsentwicklung
-                (FIAE)
+                Ausbildung Fachinfinformatiker für Anwendungsentwicklung (FIAE)
               </h3>
               <h4 className="mb-2 font-thin text-md">
                 1A Infosysteme GmbH, Hannover
@@ -96,9 +98,9 @@ export default function Timeline() {
           <div className="mb-8 flex justify-start sm:justify-between items-center w-full right-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>
             <div className="z-20 flex items-center order-1 shadow rounded-full mx-1">
-                <span className="w-7">
-                  <FontAwesomeIcon icon={faGraduationCap} />
-                </span>
+              <span className="w-7">
+                <FontAwesomeIcon icon={faGraduationCap} />
+              </span>
             </div>
             <div className="order-1 skill_container border rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
               <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
@@ -111,17 +113,16 @@ export default function Timeline() {
                 b.i.b. International College, Hannover
               </h4>
               <p className="font-thin text-sm leading-snug tracking-wide text-opacity-100">
-                Während meiner Ausbildung zum ITA habe ich fundierte
-                Grundlagen in IT-Systemen, Netzwerktechnik und Programmierung
-                erlernt. Neben technischem Fachwissen lag ein besonderer Fokus
-                auf der Entwicklung und Verwaltung von IT-Lösungen sowie der
+                Während meiner Ausbildung zum ITA habe ich fundierte Grundlagen
+                in IT-Systemen, Netzwerktechnik und Programmierung erlernt.
+                Neben technischem Fachwissen lag ein besonderer Fokus auf der
+                Entwicklung und Verwaltung von IT-Lösungen sowie der
                 Unterstützung von Anwendern.
               </p>
             </div>
           </div>
         </div>
       </div>
-
     </>
-  )
+  );
 }

@@ -36,8 +36,8 @@ const Hero = () => {
           <span className="hightlight">Webentwicklung</span> erschaffe ich{" "}
           <u>dynamische</u> und <u>benutzerfreundliche</u>{" "}
           <span className="hightlight">Webseiten</span> und{" "}
-          <span className="hightlight">Webanwendungen</span> basierend auf
-          den <u>neuesten Technologien</u>.
+          <span className="hightlight">Webanwendungen</span> basierend auf den{" "}
+          <u>neuesten Technologien</u>.
         </div>
       </div>
     </div>
