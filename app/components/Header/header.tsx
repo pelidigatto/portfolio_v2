@@ -3,7 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Navigation from "@/app/components/Header/Navigation/navigation";
 
-import {useTranslations} from 'next-intl';
+import { useTranslations } from "next-intl";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,9 +13,11 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
           <Link className="text-xl font-extralight ml-2 flex" href="/">
-            {t('header.domain.name')}<span className="hightlight">{t('header.domain.tld')}</span>
+            {t("header.domain.name")}
+            <span className="hightlight">{t("header.domain.tld")}</span>
             <div className="hidden sm:block ps-1">
-              | {t('header.job_title.main')} <span className="hightlight">{t('header.job_title.sub')}</span>
+              | {t("header.job_title.main")}{" "}
+              <span className="hightlight">{t("header.job_title.sub")}</span>
             </div>
           </Link>
         </div>

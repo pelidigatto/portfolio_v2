@@ -5,7 +5,8 @@ You are welcome to clone the repo locally! :)
 
 ## Release Notes
 
-## 1.0.0 
+## 1.0.0
+
 - Code Refactoring and minor Bugfixes
 
 ## Getting Started
@@ -23,4 +24,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-

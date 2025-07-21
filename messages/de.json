@@ -1,16 +1,26 @@
 {
+  "core": {
+    "full_name": "Florian Thönelt"
+  },
   "header": {
     "domain": {
       "name": "thoenelt",
       "tld": ".dev"
-    }, "job_title" : {
+    },
+    "job_title": {
       "main": "Frontend",
       "sub": "Webentwickler"
-    },  "navigation": {
+    },
+    "navigation": {
       "home": "Home",
       "projects": "Projekte",
-      "impress" : "Impressum",
+      "impress": "Impressum",
       "data_protection": "Datenschutz"
     }
+  },
+  "hero": {
+    "headline": "Moin, ich bin Florian",
+    "sub": "Ein leidenschaftlicher Full-Stack <highlight>Webentwickler</highlight> aus Hannover",
+    "dot_box": "Mit Leidenschaft für die <highlight>Webentwicklung</highlight> erschaffe ich <u>dynamische</u> und <u>benutzerfreundliche</u> <highlight>Webseiten</highlight> und <highlight>Webanwendungen</highlight> basierend auf den <u>neuesten Technologien</u>."
   }
 }

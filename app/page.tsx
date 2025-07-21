@@ -3,7 +3,6 @@ import AboutMe from "@/app/components/AboutMe/aboutme";
 import Timeline from "@/app/components/Timeline/timeline";
 import Contact from "@/app/components/Contact/contact";
 
-
 export default async function Home() {
   return (
     <>

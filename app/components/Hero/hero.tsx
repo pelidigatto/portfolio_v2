@@ -1,16 +1,22 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+  const t = useTranslations();
+
   return (
     <div className="grid grid-cols-12 items-center justify-center">
       <div className="col-span-12 my-10">
         <div className="text-2xl md:text-4xl font-thin text-center">
-          Moin, ich bin Florian &#x1F44B;!
+          {t("hero.headline")} &#x1F44B;!
         </div>
         <div className="text-2xl md:text-4xl font-thin text-center">
           <h1>
-            Ein leidenschaftlicher Full-Stack{" "}
-            <span className="hightlight">Webentwickler</span> aus Hannover
+            {t.rich("hero.sub", {
+              highlight: (chunks) => (
+                <span className="hightlight">{chunks}</span>
+              ),
+            })}
           </h1>
         </div>
       </div>
@@ -20,8 +26,8 @@ const Hero = () => {
             src="/foto_light.jpg"
             width={400}
             height={400}
-            alt="Florian Thönelt"
-            title="Florian Thönelt"
+            alt={t('core.full_name')}
+            title={t('core.full_name')}
           />
         </div>
       </div>
@@ -32,12 +38,10 @@ const Hero = () => {
           <span className="dot"></span>
         </div>
         <div className="text-xl font-thin">
-          Mit Leidenschaft für die{" "}
-          <span className="hightlight">Webentwicklung</span> erschaffe ich{" "}
-          <u>dynamische</u> und <u>benutzerfreundliche</u>{" "}
-          <span className="hightlight">Webseiten</span> und{" "}
-          <span className="hightlight">Webanwendungen</span> basierend auf den{" "}
-          <u>neuesten Technologien</u>.
+          {t.rich("hero.dot_box", {
+            highlight: (chunks) => <span className="hightlight">{chunks}</span>,
+            u: (chunks) => <u>{chunks}</u>,
+          })}
         </div>
       </div>
     </div>
