@@ -26,8 +26,8 @@ const Hero = () => {
             src="/foto_light.jpg"
             width={400}
             height={400}
-            alt={t('core.full_name')}
-            title={t('core.full_name')}
+            alt={t("core.full_name")}
+            title={t("core.full_name")}
           />
         </div>
       </div>

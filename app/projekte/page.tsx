@@ -3,24 +3,30 @@ import path from "path";
 import fs from "fs";
 import Image from "next/image";
 import Btn from "../components/btn";
+import { getLocale, getTranslations } from "next-intl/server";
 export const metadata: Metadata = {
   title: "Projekte | Florian Thönelt",
   description: "Hier findest du eine Übersicht über meine Projekte.",
   robots: "index, follow",
 };
 export default async function Projekte() {
-  const files = fs.readdirSync(path.join("content/"));
+  const locale = await getLocale();
+  const t = getTranslations();
+
+  const files = fs.readdirSync(path.join("content/projects/" + locale));
   return (
     <>
       <div className="flex justify-center items-center my-10">
         <div className="grid grid-cols-12 items-center justify-center text-center">
           <div className="col-span-12">
             <div className="text-2xl md:text-4xl font-thin text-center">
-              <h1>Projekte</h1>
+              <h1>{(await t)("projects.headline")}</h1>
             </div>
           </div>
           {files.map(async function (d, index) {
-            const { metadata: ProjektMeta } = await import(`@/content/${d}`);
+            const { metadata: ProjektMeta } = await import(
+              `@/content/projects/${locale}/${d}`
+            );
             return (
               <div
                 key={index}
@@ -45,9 +51,9 @@ export default async function Projekte() {
                   <div className="cols-span-12 text-center mt-5">
                     <Btn
                       className="border rounded p-2 font-thin bg-green-500 hover:bg-green-600"
-                      href={d.replace(".mdx", "/")}
+                      href={ProjektMeta.project_url_intern}
                       title={ProjektMeta.project_titel}
-                      text="Mehr erfahren"
+                      text={(await t)("core.more_btn")}
                     />
                   </div>
                 </div>

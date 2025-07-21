@@ -1,7 +1,6 @@
 {
   "core": {
-    "full_name": "Florian Thönelt",
-    "more_btn": "Mehr erfahren"
+    "full_name": "Florian Thönelt"
   },
   "header": {
     "domain": {
@@ -23,9 +22,5 @@
     "headline": "Moin, ich bin Florian",
     "sub": "Ein leidenschaftlicher Full-Stack <highlight>Webentwickler</highlight> aus Hannover",
     "dot_box": "Mit Leidenschaft für die <highlight>Webentwicklung</highlight> erschaffe ich <u>dynamische</u> und <u>benutzerfreundliche</u> <highlight>Webseiten</highlight> und <highlight>Webanwendungen</highlight> basierend auf den <u>neuesten Technologien</u>."
-  },
-  "projects": {
-    "headline": "Projekte",
-    "demo": "Demo"
   }
 }
