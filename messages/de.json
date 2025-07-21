@@ -6,6 +6,11 @@
     }, "job_title" : {
       "main": "Frontend",
       "sub": "Webentwickler"
+    },  "navigation": {
+      "home": "Home",
+      "projects": "Projekte",
+      "impress" : "Impressum",
+      "data_protection": "Datenschutz"
     }
   }
 }
