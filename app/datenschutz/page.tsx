@@ -1,5 +1,15 @@
 import { getMarkdownContent } from '../lib/markdown';
-import { getLocale } from 'next-intl/server';
+import { getLocale, getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations();
+  return {
+    title: t('data_policy.headline'),
+    description: t('data_policy.desc'),
+    robots: 'noindex, nofollow',
+  };
+}
 
 export default async function Datenschutz() {
   const locale = await getLocale();

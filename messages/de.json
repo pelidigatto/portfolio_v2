@@ -1,6 +1,9 @@
 {
   "core": {
     "full_name": "Florian Thönelt",
+    "street": " Lutherstr. 71",
+    "adress_city": "30171 Hannover",
+    "email": "florian@thoenelt.dev",
     "more_btn": "Mehr erfahren"
   },
   "header": {
@@ -36,5 +39,14 @@
     "link_github": "Github Pelidigatto (Florian Thönelt)",
     "link_linkedin": "LinkedIn Florian Thönelt",
     "link_xing": "Xing Florian Thönelt"
+  },
+  "impress": {
+    "headline": "Impressum",
+    "info": "Angaben gemäß § 5 TMG",
+    "desc": "Impressum von thoenelt.de"
+  },
+  "data_policy": {
+    "headline": "Datenschutz",
+    "desc": "Datenschutz von thoenelt.de"
   }
 }
