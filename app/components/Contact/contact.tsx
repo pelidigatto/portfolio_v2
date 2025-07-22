@@ -5,25 +5,27 @@ import {
   faLinkedin,
   faXing,
 } from "@fortawesome/free-brands-svg-icons";
+import { useTranslations } from "next-intl";
+
 
 export default function Contact() {
+  const t = useTranslations();
+
   return (
     <>
       <div className="grid grid-cols-12 items-center justify-center">
         <div className="col-span-12 my-10">
           <div className="text-2xl md:text-4xl font-thin text-center">
-            <h2>Kontakt</h2>
+            <h2>{t('contact.headline')}</h2>
           </div>
         </div>
         <div className="col-span-12 md:col-span-6  p-3 border-0 md:border-e my-1">
           <div className="font-thin text-center">
             <p className="my-3">
-              Wenn Sie Fragen haben oder mit mir zusammenarbeiten möchten,
-              können Sie mich gerne per E-Mail kontaktieren.
+              {t('contact.line_1')}
             </p>
             <p className="my-3">
-              Ich freue mich auf Ihre Nachricht und werde mich so schnell wie
-              möglich bei Ihnen melden.
+              {t('contact.line_2')}
             </p>
           </div>
         </div>
@@ -32,14 +34,14 @@ export default function Contact() {
             <a
               className="w-16 p-3"
               href="mailto:florian@thoenelt.dev"
-              title="E-Mail an Florian Thönelt"
+              title={t('contact.link_mail')}
             >
               <FontAwesomeIcon icon={faEnvelope} className="hightlight" />
             </a>
             <a
               className="w-16 p-3"
               href="https://github.com/pelidigatto"
-              title="Github Pelidigatto (Florian Thönelt)"
+              title={t('contact.link_github')}
               target="_blank"
             >
               <FontAwesomeIcon icon={faGithub} />
@@ -47,7 +49,7 @@ export default function Contact() {
             <a
               className="w-16 p-3"
               href="https://www.linkedin.com/in/florianthoenelt"
-              title="LinkedIn Florian Thönelt"
+              title={t('contact.link_linkedin')}
               target="_blank"
             >
               <FontAwesomeIcon icon={faLinkedin} className="hightlight" />
@@ -55,7 +57,7 @@ export default function Contact() {
             <a
               className="w-16 p-3"
               href="https://www.xing.com/profile/Florian_Thoenelt/"
-              title="Xing Florian Thönelt"
+              title={t('contact.link_xing')}
               target="_blank"
             >
               <FontAwesomeIcon icon={faXing} />
