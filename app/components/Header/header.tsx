@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Navigation from "@/app/components/Header/Navigation/navigation";
+import LocaleToggleButton from "@/app/components/LangToogle/langtoogle";
 
 import { useTranslations } from "next-intl";
 
@@ -23,6 +24,7 @@ export default function Header() {
         </div>
         <div className="hidden md:flex space-x-4">
           <Navigation />
+          <LocaleToggleButton />
         </div>
         <div className="md:hidden">
           <button
@@ -49,6 +51,7 @@ export default function Header() {
       {isOpen && (
         <div className="grid p-5  md:hidden">
           <Navigation />
+          <LocaleToggleButton />
         </div>
       )}
     </header>
