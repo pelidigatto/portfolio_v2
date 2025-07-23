@@ -3,14 +3,16 @@ import {
   faBriefcase,
   faGraduationCap,
 } from "@fortawesome/free-solid-svg-icons";
+import { useTranslations } from "next-intl";
 
 export default function Timeline() {
+  const t = useTranslations();
   return (
     <>
       <div className="container mx-auto w-full h-full">
         <div className="col-span-12 my-10">
           <div className="text-2xl md:text-4xl font-thin text-center">
-            <h2>Mein Werdegang</h2>
+            <h2>{t("timeline.headline")}</h2>
           </div>
         </div>
         <div className="relative wrap p-2 sm:p-10 h-full">
@@ -27,15 +29,19 @@ export default function Timeline() {
             </div>
             <div className="order-1 bg-hightlight rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
               <div className="absolute -top-4 right-5 border px-3 skill_container rounded-md shadow">
-                <span className="text-sm">Seit 04.2025</span>
+                <span className="text-sm">
+                  {t("timeline.hornet_1.job_data.date")}
+                </span>
               </div>
               <h3 className="mb-3 font-thin text-sm md:text-xl ">
-                Software Developer (Frontend)
+                {t("timeline.hornet_1.job_data.title")}
               </h3>
               <h4 className="mb-2 font-thin text-md">
-                Hornetsecurity GmbH, Hannover
+                {t("timeline.hornet_1.firm")}
               </h4>
-              <p className="font-thin text-sm leading-snug tracking-wide text-opacity-100"></p>
+              <p className="font-thin text-sm leading-snug tracking-wide text-opacity-100">
+                {t("timeline.hornet_1.job_data.desc")}
+              </p>
             </div>
           </div>
 
@@ -48,21 +54,18 @@ export default function Timeline() {
             </div>
             <div className="order-1 skill_container border rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
               <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
-                <span className="text-sm">2021 - 2025</span>
+                <span className="text-sm">
+                  {t("timeline.1a_2.job_data.date")}
+                </span>
               </div>
               <h3 className="mb-3 font-thin  text-sm md:text-xl">
-                Webentwickler
+                {t("timeline.1a_2.job_data.title")}
               </h3>
               <h4 className="mb-2 font-thin text-md">
-                1A Infosysteme GmbH, Hannover
+                {t("timeline.1a_2.firm")}
               </h4>
               <p className="font-thin text-sm leading-snug tracking-wide text-opacity-100">
-                Als Webentwickler bei der 1A-Infosysteme GmbH war ich für die
-                Frontend-Entwicklung unserer Portale (HTML, CSS, JavaScript,
-                ColdFusion) sowie für die Umsetzung individueller
-                Kundenwebseiten zuständig. WordPress verantwortlich. Im Backend
-                habe ich effiziente Außerdem habe ich Importprozesse und
-                REST-API-Schnittstellen in PHP entwickelt.
+                {t("timeline.1a_2.job_data.desc")}
               </p>
             </div>
           </div>
@@ -75,22 +78,19 @@ export default function Timeline() {
               </span>
             </div>
             <div className="order-1 bg-hightlight rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
-              <div className="absolute -top-4 right-5 border px-3 skill_container  rounded-md shadow">
-                <span className=" text-sm">2018 - 2021</span>
+              <div className="absolute -top-4 right-5 border px-3 skill_container rounded-md shadow">
+                <span className="text-sm">
+                  {t("timeline.1a_1.job_data.date")}
+                </span>
               </div>
-              <h3 className="mb-3 font-thin text-sm md:text-xl ">
-                Ausbildung Fachinfinformatiker für Anwendungsentwicklung (FIAE)
+              <h3 className="mb-3 font-thin  text-sm md:text-xl">
+                {t("timeline.1a_1.job_data.title")}
               </h3>
               <h4 className="mb-2 font-thin text-md">
-                1A Infosysteme GmbH, Hannover
+                {t("timeline.1a_1.firm")}
               </h4>
               <p className="font-thin text-sm leading-snug tracking-wide text-opacity-100">
-                Während meiner Ausbildung zum Fachinformatiker für
-                Anwendungsentwicklung habe ich umfassende Kenntnisse in
-                Software- und Webentwicklung erworben. In meinem
-                Abschlussprojekt habe ich einen Qualifizierungsprozess für
-                Geodaten entwickelt, basierend auf der API-Schnittstelle von
-                OpenStreetMap.
+                {t("timeline.1a_1.job_data.desc")}
               </p>
             </div>
           </div>
@@ -104,20 +104,18 @@ export default function Timeline() {
             </div>
             <div className="order-1 skill_container border rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
               <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
-                <span className="text-sm">2012 - 2014</span>
+                <span className="text-sm">
+                  {t("timeline.bib_1.job_data.date")}
+                </span>
               </div>
-              <h3 className="mb-3 font-thin text-sm md:text-xl ">
-                Ausbildung Informationstechnischer Assitent (ITA)
+              <h3 className="mb-3 font-thin  text-sm md:text-xl">
+                {t("timeline.bib_1.job_data.title")}
               </h3>
               <h4 className="mb-2 font-thin text-md">
-                b.i.b. International College, Hannover
+                {t("timeline.bib_1.firm")}
               </h4>
               <p className="font-thin text-sm leading-snug tracking-wide text-opacity-100">
-                Während meiner Ausbildung zum ITA habe ich fundierte Grundlagen
-                in IT-Systemen, Netzwerktechnik und Programmierung erlernt.
-                Neben technischem Fachwissen lag ein besonderer Fokus auf der
-                Entwicklung und Verwaltung von IT-Lösungen sowie der
-                Unterstützung von Anwendern.
+                {t("timeline.bib_1.job_data.desc")}
               </p>
             </div>
           </div>

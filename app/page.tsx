@@ -3,7 +3,7 @@ import AboutMe from "@/app/components/AboutMe/aboutme";
 import Timeline from "@/app/components/Timeline/timeline";
 import Contact from "@/app/components/Contact/contact";
 
-export default function Home() {
+export default async function Home() {
   return (
     <>
       <div className="flex justify-center items-center my-10">

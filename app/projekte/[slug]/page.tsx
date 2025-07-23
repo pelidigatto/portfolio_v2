@@ -1,14 +1,18 @@
 import { redirect } from "next/navigation";
 import Image from "next/image";
+import { getLocale, getTranslations } from "next-intl/server";
+
 export default async function Page({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
   try {
+    const locale = await getLocale();
     const slug = (await params).slug;
+    const t = getTranslations();
     const { default: Post, metadata: Metadata } = await import(
-      `@/content/${slug}.mdx`
+      `@/content/projects/${locale}/${slug}.mdx`
     );
 
     return (
@@ -36,16 +40,13 @@ export default async function Page({
             <div className="col-span-12 my-3 font-thin">
               <p>{Metadata.project_beschreibung}</p>
             </div>
-            <div className="col-span-12 my-3 font-thin">
-              <Post />
-            </div>
             <div className="col-span-12 my-3 flex justify-end">
               <a
                 href={Metadata.project_url}
                 target="_blank"
                 className="border rounded p-2 font-thin bg-green-500 hover:bg-green-600"
               >
-                Demo
+                {(await t)("projects.demo")}
               </a>
             </div>
           </div>
@@ -53,7 +54,6 @@ export default async function Page({
       </>
     );
   } catch (error) {
-    console.log(error);
     redirect(`/not-found/`); //redirect to 404 page
   }
 }

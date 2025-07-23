@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale } from "next-intl/server";
 import Header from "./components/Header/header";
 
 export const metadata: Metadata = {
@@ -26,13 +28,15 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+
   return (
-    <html lang="de">
+    <html lang={locale}>
       <head>
         <title>Florian Thönelt | Dev</title>
         <script
@@ -65,12 +69,14 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/site.webmanifest" />
       </head>
-      <body className={`antialiased`}>
-        <Header />
-        <div className="relative mx-auto lg:max-w-7xl px-2 py-1">
-          {children}
-        </div>
-      </body>
+      <NextIntlClientProvider>
+        <body className={`antialiased`}>
+          <Header />
+          <div className="relative mx-auto lg:max-w-7xl px-2 py-1">
+            {children}
+          </div>
+        </body>
+      </NextIntlClientProvider>
     </html>
   );
 }

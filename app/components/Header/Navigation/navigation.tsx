@@ -1,6 +1,6 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-
+import { useTranslations } from "next-intl";
 interface NavItemProps {
   path: string;
   pathName: string;
@@ -8,25 +8,27 @@ interface NavItemProps {
 }
 
 export default function Navigation() {
+  const t = useTranslations();
+
   const navigation: NavItemProps[] = [
     {
       path: "/",
-      pathName: "Home",
+      pathName: t("header.navigation.home"),
       hide: true,
     },
     {
-      path: "/projekte/",
-      pathName: "Projekte",
+      path: "/projekte",
+      pathName: t("header.navigation.projects"),
       hide: false,
     },
     {
-      path: "/impressum/",
-      pathName: "Impressum",
+      path: "/impressum",
+      pathName: t("header.navigation.impress"),
       hide: false,
     },
     {
-      path: "/datenschutz/",
-      pathName: "Datenschutz",
+      path: "/datenschutz",
+      pathName: t("header.navigation.data_protection"),
       hide: false,
     },
   ];
