@@ -56,5 +56,40 @@
     "sub_text3": "Seit meiner Ausbildung zum <highlight> Fachinformatiker für Anwendungsentwicklung</highlight> im Jahr 2021 konnte ich viele wertvolle Erfahrungen sammeln und diese kontenurlich verbessern.",
     "sub_text4": "In der <highlight>Backend-Entwicklung</highlight> arbeite ich am liebsten mit PHP und verschiedenen Frameworks wie z.B. Laravell. Aber auch hier bleibe ich immer am Ball und lerne gerne Neues dazu, um mein Skillset ständig zu erweitern.",
     "sub_text5": "In der <highlight>Frontend-Entwicklung</highlight> bin ich ein großer Fan von React und Next.js. Mit TailwindCSS habe ich eine großartige Möglichkeit gefunden, meine Projekte schnell und effizient zu gestalten."
+  },
+  "timeline": {
+    "headline": "Mein Werdegang",
+    "hornet_1": {
+      "firm": "Hornetsecurity GmbH, Hannover",
+      "job_data": {
+        "title": "Software Developer (Frontend)",
+        "date": "Seit 04.2025",
+        "desc": ""
+      }
+    },
+    "1a_2": {
+      "firm": "1A Infosysteme GmbH, Hannover",
+      "job_data": {
+        "title": "Webentwickler",
+        "date": "2021 - 2025",
+        "desc": "Als Webentwickler bei der 1A-Infosysteme GmbH war ich für die Frontend-Entwicklung unserer Portale (HTML, CSS, JavaScript, ColdFusion) sowie für die Umsetzung individueller Kundenwebseiten zuständig. WordPress verantwortlich. Im Backend habe ich effiziente Außerdem habe ich Importprozesse und REST-API-Schnittstellen in PHP entwickelt."
+      }
+    },
+    "1a_1": {
+      "firm": "1A Infosysteme GmbH, Hannover",
+      "job_data": {
+        "title": "Ausbildung Fachinfinformatiker für Anwendungsentwicklung (FIAE)",
+        "date": "2018 - 2021",
+        "desc": "Während meiner Ausbildung zum Fachinformatiker für Anwendungsentwicklung habe ich umfassende Kenntnisse in Software- und Webentwicklung erworben. In meinem Abschlussprojekt habe ich einen Qualifizierungsprozess für Geodaten entwickelt, basierend auf der API-Schnittstelle von OpenStreetMap."
+      }
+    },
+    "bib_1": {
+      "firm": "b.i.b. International College, Hannover",
+      "job_data": {
+        "title": "Ausbildung Informationstechnischer Assitent (ITA)",
+        "date": "2012 - 2014",
+        "desc": "Während meiner Ausbildung zum ITA habe ich fundierte Grundlagen in IT-Systemen, Netzwerktechnik und Programmierung erlernt. Neben technischem Fachwissen lag ein besonderer Fokus auf der Entwicklung und Verwaltung von IT-Lösungen sowie der nterstützung von Anwendern."
+      }
+    }
   }
 }
