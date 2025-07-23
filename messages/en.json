@@ -1,6 +1,10 @@
 {
   "core": {
-    "full_name": "Florian Thönelt"
+    "full_name": "Florian Thönelt",
+    "street": "Lutherstr. 71",
+    "adress_city": "30171 Hanover",
+    "email": "florian@thoenelt.dev",
+    "more_btn": "Learn more"
   },
   "header": {
     "domain": {
@@ -9,18 +13,83 @@
     },
     "job_title": {
       "main": "Frontend",
-      "sub": "Webentwickler"
+      "sub": "Web developer"
     },
     "navigation": {
       "home": "Home",
-      "projects": "Projekte",
-      "impress": "Impressum",
-      "data_protection": "Datenschutz"
+      "projects": "Projects",
+      "impress": "Imprint",
+      "data_protection": "Data protection"
     }
   },
   "hero": {
-    "headline": "Moin, ich bin Florian",
-    "sub": "Ein leidenschaftlicher Full-Stack <highlight>Webentwickler</highlight> aus Hannover",
-    "dot_box": "Mit Leidenschaft für die <highlight>Webentwicklung</highlight> erschaffe ich <u>dynamische</u> und <u>benutzerfreundliche</u> <highlight>Webseiten</highlight> und <highlight>Webanwendungen</highlight> basierend auf den <u>neuesten Technologien</u>."
+    "headline": "Hi, I'm Florian",
+    "sub": "A passionate full-stack <highlight>web developer</highlight> from Hanover",
+    "dot_box": "With a passion for <highlight>web development</highlight>, I create <u>dynamic</u> and <u>user-friendly</u> <highlight>websites</highlight> and <highlight>web applications</highlight> based on the <u>latest technologies</u>."
+  },
+  "projects": {
+    "headline": "Projects",
+    "demo": "Demo"
+  },
+  "contact": {
+    "headline": "Contact",
+    "line_1": "If you have any questions or would like to work with me, please feel free to contact me by email.",
+    "line_2": "I look forward to hearing from you and will get back to you as soon as possible.",
+    "link_mail": "Email Florian Thönelt",
+    "link_github": "Github Pelidigatto (Florian Thönelt)",
+    "link_linkedin": "LinkedIn Florian Thönelt",
+    "link_xing": "Xing Florian Thönelt"
+  },
+  "impress": {
+    "headline": "Legal notice",
+    "info": "Information pursuant to § 5 TMG",
+    "desc": "Legal notice for thoenelt.de"
+  },
+  "data_policy": {
+    "headline": "Data protection",
+    "desc": "Data protection at thoenelt.de"
+  },
+  "about_me": {
+    "headline": "About me",
+    "sub_text1": "Hello and welcome to my portfolio. I'm Florian, a passionate <highlight>full-stack web developer</highlight> from the beautiful Lower Saxony capital of Hanover.",
+    "sub_text2": "For me, web development is much more than just a job. It's my great <highlight>passion</highlight>, which I love to invest a lot of my free time in because it simply gives me so much joy. It's a wonderful feeling to be able to spend so much of your free time doing something that gives you so much in return.",
+    "sub_text3": "Since completing my training as an <highlight>IT specialist for application development</highlight> in 2021, I have been able to gain a lot of valuable experience and continuously improve my skills.",
+    "sub_text4": "In <highlight>back-end development</highlight>, I prefer to work with PHP and various frameworks such as Laravel. But here, too, I always stay on the ball and enjoy learning new things to constantly expand my skill set.",
+    "sub_text5": "In <highlight>front-end development</highlight>, I am a big fan of React and Next.js. With TailwindCSS, I have found a great way to design my projects quickly and efficiently."
+  },
+  "timeline": {
+    "headline": "My career",
+    "hornet_1": {
+      "firm": "Hornetsecurity GmbH, Hanover",
+      "job_data": {
+        "title": "Software Developer (Frontend)",
+        "date": "Since 04.2025",
+        "desc": ""
+      }
+    },
+    "1a_2": {
+      "firm": "1A Infosysteme GmbH, Hanover",
+      "job_data": {
+        "title": "Web Developer",
+        "date": "2021 - 2025",
+        "desc": "As a web developer at 1A-Infosysteme GmbH, I was responsible for the frontend development of our portals (HTML, CSS, JavaScript, ColdFusion) and for the implementation of individual customer websites. WordPress responsible. In the backend, I developed efficient import processes and REST API interfaces in PHP."
+      }
+    },
+    "1a_1": {
+      "firm": "1A Infosysteme GmbH, Hanover",
+      "job_data": {
+        "title": "Training as an IT specialist for application development (FIAE)",
+        "date": "2018 - 2021",
+        "desc": "During my training as an IT specialist for application development, I acquired comprehensive knowledge of software and web development. In my final project, I developed a qualification process for geodata based on the OpenStreetMap API interface."
+      }
+    },
+    "bib_1": {
+      "firm": "b.i.b. International College, Hanover",
+      "job_data": {
+        "title": "Training as an IT assistant (ITA)",
+        "date": "2012 - 2014",
+        "desc": "During my training as an ITA, I learned the fundamentals of IT systems, network technology and programming. In addition to technical expertise, there was a special focus on the development and administration of IT solutions and user support."
+      }
+    }
   }
 }
