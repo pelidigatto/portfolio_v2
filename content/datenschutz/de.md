@@ -16,7 +16,7 @@
 
 ## Einleitung und Überblick
 
-Wir haben diese Datenschutzerklärung (Fassung 18.01.2024-312704709) verfasst, um Ihnen gemäß der Vorgaben der [Datenschutz-Grundverordnung (EU) 2016/679](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX%3A32016R0679&from=DE&tid=312704709#d1e2269-1-1)  und anwendbaren nationalen Gesetzen zu erklären, welche personenbezogenen Daten (kurz Daten) wir als Verantwortliche – und die von uns beauftragten Auftragsverarbeiter (z. B. Provider) – verarbeiten, zukünftig verarbeiten werden und welche rechtmäßigen Möglichkeiten Sie haben. Die verwendeten Begriffe sind geschlechtsneutral zu verstehen.  
+Wir haben diese Datenschutzerklärung (Fassung 18.01.2024-312704709) verfasst, um Ihnen gemäß der Vorgaben der [Datenschutz-Grundverordnung (EU) 2016/679](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX%3A32016R0679&from=DE&tid=312704709#d1e2269-1-1) und anwendbaren nationalen Gesetzen zu erklären, welche personenbezogenen Daten (kurz Daten) wir als Verantwortliche – und die von uns beauftragten Auftragsverarbeiter (z. B. Provider) – verarbeiten, zukünftig verarbeiten werden und welche rechtmäßigen Möglichkeiten Sie haben. Die verwendeten Begriffe sind geschlechtsneutral zu verstehen.  
 **Kurz gesagt:** Wir informieren Sie umfassend über Daten, die wir über Sie verarbeiten.
 
 Datenschutzerklärungen klingen für gewöhnlich sehr technisch und verwenden juristische Fachbegriffe. Diese Datenschutzerklärung soll Ihnen hingegen die wichtigsten Dinge so einfach und transparent wie möglich beschreiben. Soweit es der Transparenz förderlich ist, werden technische **Begriffe leserfreundlich erklärt**, Links zu weiterführenden Informationen geboten und **Grafiken** zum Einsatz gebracht. Wir informieren damit in klarer und einfacher Sprache, dass wir im Rahmen unserer Geschäftstätigkeiten nur dann personenbezogene Daten verarbeiten, wenn eine entsprechende gesetzliche Grundlage gegeben ist. Das ist sicher nicht möglich, wenn man möglichst knappe, unklare und juristisch-technische Erklärungen abgibt, so wie sie im Internet oft Standard sind, wenn es um Datenschutz geht. Ich hoffe, Sie finden die folgenden Erläuterungen interessant und informativ und vielleicht ist die eine oder andere Information dabei, die Sie noch nicht kannten.  
@@ -35,7 +35,7 @@ Diese Datenschutzerklärung gilt für alle von uns im Unternehmen verarbeiteten 
 ## Rechtsgrundlagen
 
 In der folgenden Datenschutzerklärung geben wir Ihnen transparente Informationen zu den rechtlichen Grundsätzen und Vorschriften, also den Rechtsgrundlagen der Datenschutz-Grundverordnung, die uns ermöglichen, personenbezogene Daten zu verarbeiten.  
-Was das EU-Recht betrifft, beziehen wir uns auf die VERORDNUNG (EU) 2016/679 DES EUROPÄISCHEN PARLAMENTS UND DES RATES vom 27. April 2016. Diese Datenschutz-Grundverordnung der EU können Sie selbstverständlich online auf EUR-Lex, dem Zugang zum EU-Recht, unter [https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679)  nachlesen.
+Was das EU-Recht betrifft, beziehen wir uns auf die VERORDNUNG (EU) 2016/679 DES EUROPÄISCHEN PARLAMENTS UND DES RATES vom 27. April 2016. Diese Datenschutz-Grundverordnung der EU können Sie selbstverständlich online auf EUR-Lex, dem Zugang zum EU-Recht, unter [https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679) nachlesen.
 
 Wir verarbeiten Ihre Daten nur, wenn mindestens eine der folgenden Bedingungen zutrifft:
 
@@ -77,29 +77,31 @@ Gemäß Artikel 13, 14 DSGVO informieren wir Sie über die folgenden Rechte, die
 
 - Sie haben laut Artikel 15 DSGVO ein Auskunftsrecht darüber, ob wir Daten von Ihnen verarbeiten. Sollte das zutreffen, haben Sie Recht darauf eine Kopie der Daten zu erhalten und die folgenden Informationen zu erfahren:
 
-    - zu welchem Zweck wir die Verarbeitung durchführen;
-    - die Kategorien, also die Arten von Daten, die verarbeitet werden;
-    - wer diese Daten erhält und wenn die Daten an Drittländer übermittelt werden, wie die Sicherheit garantiert werden kann;
-    - wie lange die Daten gespeichert werden;
-    - das Bestehen des Rechts auf Berichtigung, Löschung oder Einschränkung der Verarbeitung und dem Widerspruchsrecht gegen die Verarbeitung;
-    - dass Sie sich bei einer Aufsichtsbehörde beschweren können (Links zu diesen Behörden finden Sie weiter unten);
-    - die Herkunft der Daten, wenn wir sie nicht bei Ihnen erhoben haben;
-    - ob Profiling durchgeführt wird, ob also Daten automatisch ausgewertet werden, um zu einem persönlichen Profil von Ihnen zu gelangen.
+  - zu welchem Zweck wir die Verarbeitung durchführen;
+  - die Kategorien, also die Arten von Daten, die verarbeitet werden;
+  - wer diese Daten erhält und wenn die Daten an Drittländer übermittelt werden, wie die Sicherheit garantiert werden kann;
+  - wie lange die Daten gespeichert werden;
+  - das Bestehen des Rechts auf Berichtigung, Löschung oder Einschränkung der Verarbeitung und dem Widerspruchsrecht gegen die Verarbeitung;
+  - dass Sie sich bei einer Aufsichtsbehörde beschweren können (Links zu diesen Behörden finden Sie weiter unten);
+  - die Herkunft der Daten, wenn wir sie nicht bei Ihnen erhoben haben;
+  - ob Profiling durchgeführt wird, ob also Daten automatisch ausgewertet werden, um zu einem persönlichen Profil von Ihnen zu gelangen.
+
 - Sie haben laut Artikel 16 DSGVO ein Recht auf Berichtigung der Daten, was bedeutet, dass wir Daten richtig stellen müssen, falls Sie Fehler finden.
 - Sie haben laut Artikel 17 DSGVO das Recht auf Löschung („Recht auf Vergessenwerden“), was konkret bedeutet, dass Sie die Löschung Ihrer Daten verlangen dürfen.
 - Sie haben laut Artikel 18 DSGVO das Recht auf Einschränkung der Verarbeitung, was bedeutet, dass wir die Daten nur mehr speichern dürfen aber nicht weiter verwenden.
 - Sie haben laut Artikel 20 DSGVO das Recht auf Datenübertragbarkeit, was bedeutet, dass wir Ihnen auf Anfrage Ihre Daten in einem gängigen Format zur Verfügung stellen.
 - Sie haben laut Artikel 21 DSGVO ein Widerspruchsrecht, welches nach Durchsetzung eine Änderung der Verarbeitung mit sich bringt.
 
-    - Wenn die Verarbeitung Ihrer Daten auf Artikel 6 Abs. 1 lit. e (öffentliches Interesse, Ausübung öffentlicher Gewalt) oder Artikel 6 Abs. 1 lit. f (berechtigtes Interesse) basiert, können Sie gegen die Verarbeitung Widerspruch einlegen. Wir prüfen danach so rasch wie möglich, ob wir diesem Widerspruch rechtlich nachkommen können.
-    - Werden Daten verwendet, um Direktwerbung zu betreiben, können Sie jederzeit gegen diese Art der Datenverarbeitung widersprechen. Wir dürfen Ihre Daten danach nicht mehr für Direktmarketing verwenden.
-    - Werden Daten verwendet, um Profiling zu betreiben, können Sie jederzeit gegen diese Art der Datenverarbeitung widersprechen. Wir dürfen Ihre Daten danach nicht mehr für Profiling verwenden.
+  - Wenn die Verarbeitung Ihrer Daten auf Artikel 6 Abs. 1 lit. e (öffentliches Interesse, Ausübung öffentlicher Gewalt) oder Artikel 6 Abs. 1 lit. f (berechtigtes Interesse) basiert, können Sie gegen die Verarbeitung Widerspruch einlegen. Wir prüfen danach so rasch wie möglich, ob wir diesem Widerspruch rechtlich nachkommen können.
+  - Werden Daten verwendet, um Direktwerbung zu betreiben, können Sie jederzeit gegen diese Art der Datenverarbeitung widersprechen. Wir dürfen Ihre Daten danach nicht mehr für Direktmarketing verwenden.
+  - Werden Daten verwendet, um Profiling zu betreiben, können Sie jederzeit gegen diese Art der Datenverarbeitung widersprechen. Wir dürfen Ihre Daten danach nicht mehr für Profiling verwenden.
+
 - Sie haben laut Artikel 22 DSGVO unter Umständen das Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung (zum Beispiel Profiling) beruhenden Entscheidung unterworfen zu werden.
 - Sie haben laut Artikel 77 DSGVO das Recht auf Beschwerde. Das heißt, Sie können sich jederzeit bei der Datenschutzbehörde beschweren, wenn Sie der Meinung sind, dass die Datenverarbeitung von personenbezogenen Daten gegen die DSGVO verstößt.
 
 **Kurz gesagt:** Sie haben Rechte – zögern Sie nicht, die oben gelistete verantwortliche Stelle bei uns zu kontaktieren!
 
-Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche in sonst einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren. Diese ist für Österreich die Datenschutzbehörde, deren Website Sie unter [https://www.dsb.gv.at/](https://www.dsb.gv.at/?tid=312704709)  finden. In Deutschland gibt es für jedes Bundesland einen Datenschutzbeauftragten. Für nähere Informationen können Sie sich an die [Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)](https://www.bfdi.bund.de/DE/Home/home_node.html)  wenden. Für unser Unternehmen ist die folgende lokale Datenschutzbehörde zuständig:
+Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche in sonst einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren. Diese ist für Österreich die Datenschutzbehörde, deren Website Sie unter [https://www.dsb.gv.at/](https://www.dsb.gv.at/?tid=312704709) finden. In Deutschland gibt es für jedes Bundesland einen Datenschutzbeauftragten. Für nähere Informationen können Sie sich an die [Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)](https://www.bfdi.bund.de/DE/Home/home_node.html) wenden. Für unser Unternehmen ist die folgende lokale Datenschutzbehörde zuständig:
 
 ## Niedersachsen Datenschutzbehörde
 
@@ -107,13 +109,13 @@ Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht v
 **Adresse:** Prinzenstraße 5, 30159 Hannover  
 **Telefonnr.:** 05 11/120-45 00  
 **E-Mail-Adresse:** [poststelle@lfd.niedersachsen.de](mailto:poststelle@lfd.niedersachsen.de)  
-**Website:**  [https://lfd.niedersachsen.de/startseite/](https://lfd.niedersachsen.de/startseite/?tid=312704709)
+**Website:** [https://lfd.niedersachsen.de/startseite/](https://lfd.niedersachsen.de/startseite/?tid=312704709)
 
 ## Datenübertragung in Drittländer
 
 Wir übertragen oder verarbeiten Daten nur dann in Länder außerhalb des Geltungsbereichs der DSGVO (Drittländer), wenn Sie in diese Verarbeitung einwilligen oder eine sonstige gesetzliche Erlaubnis besteht. Dies trifft insbesondere zu, wenn die Verarbeitung gesetzlich vorgeschrieben oder zur Erfüllung eines Vertragsverhältnisses notwendig und in jedem Fall nur soweit dies generell erlaubt ist. Ihre Zustimmung ist in den meisten Fällen der wichtigste Grund, dass wir Daten in Drittländern verarbeiten lassen. Die Verarbeitung personenbezogener Daten in Drittländern wie den USA, wo viele Softwarehersteller Dienstleistungen anbieten und Ihre Serverstandorte haben, kann bedeuten, dass personenbezogene Daten auf unerwartete Weise verarbeitet und gespeichert werden.
 
-Wir weisen ausdrücklich darauf hin, dass nach Meinung des Europäischen Gerichtshofs derzeit nur dann ein angemessenes Schutzniveau für den Datentransfer in die USA besteht, wenn ein US-Unternehmen, das personenbezogene Daten von EU-Bürgern in den USA verarbeitet, aktiver Teilnehmer des EU-US Data Privacy Frameworks ist. Mehr Informationen dazu finden Sie unter: [https://commission.europa.eu/document/fa09cbad-dd7d-4684-ae60-be03fcb0fddf\_en](https://commission.europa.eu/document/fa09cbad-dd7d-4684-ae60-be03fcb0fddf_en)
+Wir weisen ausdrücklich darauf hin, dass nach Meinung des Europäischen Gerichtshofs derzeit nur dann ein angemessenes Schutzniveau für den Datentransfer in die USA besteht, wenn ein US-Unternehmen, das personenbezogene Daten von EU-Bürgern in den USA verarbeitet, aktiver Teilnehmer des EU-US Data Privacy Frameworks ist. Mehr Informationen dazu finden Sie unter: [https://commission.europa.eu/document/fa09cbad-dd7d-4684-ae60-be03fcb0fddf_en](https://commission.europa.eu/document/fa09cbad-dd7d-4684-ae60-be03fcb0fddf_en)
 
 Die Datenverarbeitung durch US-Dienste, die nicht aktive Teilnehmer des EU-US Data Privacy Frameworks sind, kann dazu führen, dass gegebenenfalls Daten nicht anonymisiert verarbeitet und gespeichert werden. Ferner können gegebenenfalls US-amerikanische staatliche Behörden Zugriff auf einzelne Daten nehmen. Zudem kann es vorkommen, dass erhobene Daten mit Daten aus anderen Diensten desselben Anbieters, sofern Sie ein entsprechendes Nutzerkonto haben, verknüpft werden. Nach Möglichkeit versuchen wir Serverstandorte innerhalb der EU zu nutzen, sofern das angeboten wird.  
 Wir informieren Sie an den passenden Stellen dieser Datenschutzerklärung genauer über Datenübertragung in Drittländer, sofern diese zutrifft.
@@ -241,7 +243,7 @@ In den folgenden Abschnitten werden Sie genauer über den Einsatz von Cookies in
 **Webdesign Datenschutzerklärung Zusammenfassung**  
 👥 Betroffene: Besucher der Website  
 🤝 Zweck: Verbesserung der Nutzererfahrung  
-📓 Verarbeitete Daten: Welche Daten verarbeitet werden, hängt stark von den verwendeten Diensten ab. Meist handelt es sich etwa um IP-Adresse, technische Daten, Spracheinstellungen,  Browserversion, Bildschirmauflösung und Name des Browsers. Mehr Details dazu finden Sie bei den jeweils eingesetzten Webdesign-Tools.  
+📓 Verarbeitete Daten: Welche Daten verarbeitet werden, hängt stark von den verwendeten Diensten ab. Meist handelt es sich etwa um IP-Adresse, technische Daten, Spracheinstellungen, Browserversion, Bildschirmauflösung und Name des Browsers. Mehr Details dazu finden Sie bei den jeweils eingesetzten Webdesign-Tools.  
 📅 Speicherdauer: abhängig von den eingesetzten Tools  
 ⚖️ Rechtsgrundlagen: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)
 
@@ -289,7 +291,7 @@ Icons spielen für Websites eine immer wichtigere Rolle. Font Awesome ist eine W
 
 ### Warum verwenden wir Font Awesome auf unserer Website?
 
-Durch Font Awesome können Inhalte auf unserer Website besser aufbereitet werden. So können Sie sich auf unserer Website besser orientieren und die Inhalte leichter erfassen. Mit den Icons kann man sogar manchmal ganze Wörter ersetzen und Platz sparen. Da ist besonders praktisch, wenn wir Inhalte speziell für Smartphones optimieren.  Diese Icons werden statt als Bild als HMTL-Code eingefügt. Dadurch können wir die Icons mit CSS genauso bearbeiten, wie wir wollen. Gleichzeitig verbessern wir mit Font Awesome auch unsere Ladegeschwindigkeit, weil es sich nur um HTML-Elemente handelt und nicht um Icon-Bilder. All diese Vorteile helfen uns, die Website für Sie noch übersichtlicher, frischer und schneller zu machen.
+Durch Font Awesome können Inhalte auf unserer Website besser aufbereitet werden. So können Sie sich auf unserer Website besser orientieren und die Inhalte leichter erfassen. Mit den Icons kann man sogar manchmal ganze Wörter ersetzen und Platz sparen. Da ist besonders praktisch, wenn wir Inhalte speziell für Smartphones optimieren. Diese Icons werden statt als Bild als HMTL-Code eingefügt. Dadurch können wir die Icons mit CSS genauso bearbeiten, wie wir wollen. Gleichzeitig verbessern wir mit Font Awesome auch unsere Ladegeschwindigkeit, weil es sich nur um HTML-Elemente handelt und nicht um Icon-Bilder. All diese Vorteile helfen uns, die Website für Sie noch übersichtlicher, frischer und schneller zu machen.
 
 ### Welche Daten werden von Font Awesome gespeichert?
 
@@ -324,7 +326,7 @@ Von unserer Seite besteht zudem ein berechtigtes Interesse, Font Awesome zu verw
 
 Wir weisen darauf hin, dass nach Meinung des Europäischen Gerichtshofs derzeit kein angemessenes Schutzniveau für den Datentransfer in die USA besteht. Die Datenverarbeitung geschieht im Wesentlichen durch Font Awesome. Dies kann dazu führen, dass gegebenenfalls Daten nicht anonymisiert verarbeitet und gespeichert werden. Ferner können gegebenenfalls US-amerikanische staatliche Behörden Zugriff auf einzelne Daten nehmen. Es kann ferner vorkommen, dass diese Daten mit Daten aus möglichen anderen Diensten von Font Awesome, bei denen Sie ein Nutzerkonto haben, verknüpft werden.
 
-Wenn Sie mehr über Font Awesome und deren Umgang mit Daten erfahren wollen, empfehlen wir Ihnen die Datenschutzerklärung unter [https://fontawesome.com/privacy](https://fontawesome.com/privacy)  und die Hilfeseite unter [https://fontawesome.com/support](https://fontawesome.com/support) .
+Wenn Sie mehr über Font Awesome und deren Umgang mit Daten erfahren wollen, empfehlen wir Ihnen die Datenschutzerklärung unter [https://fontawesome.com/privacy](https://fontawesome.com/privacy) und die Hilfeseite unter [https://fontawesome.com/support](https://fontawesome.com/support) .
 
 ## Schlusswort
 
@@ -334,4 +336,4 @@ Bei Fragen zum Thema Datenschutz auf unserer Website zögern Sie bitte nicht, un
 
 Alle Texte sind urheberrechtlich geschützt.
 
-Quelle: Erstellt mit dem [Datenschutz Generator](https://www.adsimple.de/datenschutz-generator/ "Datenschutz Generator von AdSimple für Deutschland")  von AdSimple
+Quelle: Erstellt mit dem [Datenschutz Generator](https://www.adsimple.de/datenschutz-generator/ "Datenschutz Generator von AdSimple für Deutschland") von AdSimple
