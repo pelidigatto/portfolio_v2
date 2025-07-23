@@ -5,6 +5,10 @@ You are welcome to clone the repo locally! :)
 
 ## Release Notes
 
+## 1.1.0
+
+- Introduce i18n
+
 ## 1.0.0
 
 - Code Refactoring and minor Bugfixes
