@@ -78,7 +78,7 @@ export default function Timeline() {
               </span>
             </div>
             <div className="order-1 bg-hightlight rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
-              <div className="absolute -top-4 right-5 border px-3 bg-hightlight rounded-md shadow">
+              <div className="absolute -top-4 right-5 border px-3 skill_container rounded-md shadow">
                 <span className="text-sm">
                   {t("timeline.1a_1.job_data.date")}
                 </span>
