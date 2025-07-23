@@ -11,7 +11,7 @@ export default async function Page({
     const locale = await getLocale();
     const slug = (await params).slug;
     const t = getTranslations();
-    const { default: Post, metadata: Metadata } = await import(
+    const {metadata: Metadata } = await import(
       `@/content/projects/${locale}/${slug}.mdx`
     );
 
@@ -54,6 +54,7 @@ export default async function Page({
       </>
     );
   } catch (error) {
+    console.warn(error);
     redirect(`/not-found/`); //redirect to 404 page
   }
 }
