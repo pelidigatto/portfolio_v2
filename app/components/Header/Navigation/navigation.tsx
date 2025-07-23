@@ -17,17 +17,17 @@ export default function Navigation() {
       hide: true,
     },
     {
-      path: "/projekte/",
+      path: "/projekte",
       pathName: t("header.navigation.projects"),
       hide: false,
     },
     {
-      path: "/impressum/",
+      path: "/impressum",
       pathName: t("header.navigation.impress"),
       hide: false,
     },
     {
-      path: "/datenschutz/",
+      path: "/datenschutz",
       pathName: t("header.navigation.data_protection"),
       hide: false,
     },
