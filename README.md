@@ -4,7 +4,7 @@ Welcome to my portfolio! My name is Florian, I am a passionate web developer fro
 You are welcome to clone the repo locally! :)
 
 ## Release Notes
-
+a
 ## 1.1.0
 
 - Introduce i18n
