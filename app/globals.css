@@ -77,6 +77,10 @@ u {
   }
 }
 
+.timeline_bubbles {
+  background: var(--background);
+}
+
 .md_content p {
   margin: 1rem 0;
 }
