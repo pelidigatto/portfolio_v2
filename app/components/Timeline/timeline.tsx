@@ -15,14 +15,14 @@ export default function Timeline() {
             <h2>{t("timeline.headline")}</h2>
           </div>
         </div>
-        <div className="relative wrap p-2 sm:p-10 h-full">
+        <div className="relative wrap p-2 sm:p-10 h-full ">
           <div
-            className="border-2-2 absolute border-opacity-20  h-full border-0 md:border timeline" /* style={{ left: '50%' }} */
+            className="absolute h-full border-0 md:border timeline"
           ></div>
 
           <div className="mb-8 flex justify-start sm:justify-between flex-row sm:flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>
-            <div className="z-20 flex items-center order-1 shadow rounded-full mx-1">
+            <div className="z-20 flex items-center order-1 shadow rounded-full mx-1 border p-2 md:p-5 timeline_bubbles">
               <span className="w-7">
                 <FontAwesomeIcon icon={faBriefcase} />
               </span>
@@ -47,7 +47,7 @@ export default function Timeline() {
 
           <div className="mb-8 flex justify-start sm:justify-between items-center w-full right-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>
-            <div className="z-20 flex items-center order-1 shadow rounded-full mx-1">
+            <div className="z-20 flex items-center order-1 shadow rounded-full mx-1 border p-2 md:p-5 timeline_bubbles">
               <span className="w-7">
                 <FontAwesomeIcon icon={faBriefcase} />
               </span>
@@ -72,7 +72,7 @@ export default function Timeline() {
 
           <div className="mb-8 flex justify-start sm:justify-between flex-row sm:flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>
-            <div className="z-20 flex items-center order-1 shadow rounded-full mx-1">
+            <div className="z-20 flex items-center order-1 shadow rounded-full mx-1 border p-2 md:p-5 timeline_bubbles">
               <span className="w-7">
                 <FontAwesomeIcon icon={faGraduationCap} />
               </span>
@@ -97,7 +97,7 @@ export default function Timeline() {
 
           <div className="mb-8 flex justify-start sm:justify-between items-center w-full right-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>
-            <div className="z-20 flex items-center order-1 shadow rounded-full mx-1">
+            <div className="z-20 flex items-center order-1 shadow rounded-full mx-1 border p-2 md:p-5 timeline_bubbles">
               <span className="w-7">
                 <FontAwesomeIcon icon={faGraduationCap} />
               </span>
