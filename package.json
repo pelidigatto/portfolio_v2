@@ -17,6 +17,7 @@
     "@mdx-js/react": "^3.1.0",
     "@next/mdx": "^15.1.0",
     "@types/mdx": "^2.0.13",
+    "cookies-next": "^6.1.0",
     "flag-icons": "^7.5.0",
     "gray-matter": "^4.0.3",
     "next": "^15.3.0",
