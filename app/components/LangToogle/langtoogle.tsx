@@ -21,9 +21,9 @@ export default function LocaleToggleButton() {
   }
 
   return (
-    <button onClick={toggleLocale} className="p-2 border rounded">
+    <button onClick={toggleLocale}>
       <span
-        className={`fi fi-${lang === "en" ? "gb" : lang}`}
+        className={`border border-stone-500 bg-cover fi fi-${lang === "en" ? "gb" : lang}`}
         title={lang.toUpperCase()}
       ></span>
     </button>
