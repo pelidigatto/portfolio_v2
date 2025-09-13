@@ -3,7 +3,6 @@ import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale } from "next-intl/server";
 import Header from "./components/Header/header";
-
 export const metadata: Metadata = {
   title: "Florian Thönelt | Full-Stack Webentwickler",
   description:
@@ -34,10 +33,11 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const locale = await getLocale();
-
   return (
+    <>
     <html lang={locale}>
       <head>
+
         <title>Florian Thönelt | Dev</title>
         <script
           async
@@ -78,5 +78,6 @@ export default async function RootLayout({
         </body>
       </NextIntlClientProvider>
     </html>
+    </>
   );
 }
