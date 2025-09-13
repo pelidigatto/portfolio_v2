@@ -1,35 +1,31 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
-
+import { setCookie } from "cookies-next";
+import {useSessionStorage} from "@/app/hooks/useSessionStorage";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 export default function LocaleToggleButton() {
-  const [locale, setLocale] = useState<"de" | "en">("de");
   const router = useRouter();
+  const [lang, setLang] = useSessionStorage<string>("selected-language", "de");
+  const languages = ["de", "en"];
 
-  useEffect(() => {
-    const match = document.cookie.match(/locale=(\w{2})/);
-    if (match && (match[1] === "de" || match[1] === "en")) {
-      setLocale(match[1] as "de" | "en");
-    }
-  }, []);
-
-  const toggleLocale = () => {
-    const newLocale = locale === "de" ? "en" : "de";
-    document.cookie = `locale=${newLocale}; path=/; max-age=31536000; SameSite=Lax`;
-    setLocale(newLocale);
+  function toggleLocale() {
+    const nextLang = (() => {
+      const currentIndex = languages.indexOf(lang);
+      return languages[(currentIndex + 1) % languages.length];
+    })();
+    setLang(nextLang);
+    setCookie("locale", nextLang, { path: "/" });
     router.refresh();
-  };
+  }
 
   return (
     <button onClick={toggleLocale}>
-      {locale === "de" ? (
-        <span className="fi fi-de"></span>
-      ) : (
-        <span className="fi fi-gb"></span>
-      )}
+      <span
+        className={`border border-stone-500 bg-cover fi fi-${lang === "en" ? "gb" : lang}`}
+        title={lang.toUpperCase()}
+      ></span>
     </button>
   );
 }

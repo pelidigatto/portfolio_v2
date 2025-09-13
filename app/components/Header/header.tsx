@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Navigation from "@/app/components/Header/Navigation/navigation";
 import LocaleToggleButton from "@/app/components/LangToogle/langtoogle";
+import ThemeToggleButton from "@/app/components/ThemeToogle/themeToogle";
 
 import { useTranslations } from "next-intl";
 
@@ -25,6 +26,7 @@ export default function Header() {
         <div className="hidden md:flex space-x-4">
           <Navigation />
           <LocaleToggleButton />
+          <ThemeToggleButton />
         </div>
         <div className="md:hidden">
           <button
@@ -52,6 +54,7 @@ export default function Header() {
         <div className="grid p-5  md:hidden">
           <Navigation />
           <LocaleToggleButton />
+          <ThemeToggleButton />
         </div>
       )}
     </header>
