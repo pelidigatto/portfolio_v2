@@ -6,6 +6,9 @@ You are welcome to clone the repo locally! :)
 ## Release Notes
 
 ## 1.2.0
+- Add SessionStorage Hook
+- Add Theme Toggle
+- Fix some visual Bugs
 
 ## 1.1.1
 
