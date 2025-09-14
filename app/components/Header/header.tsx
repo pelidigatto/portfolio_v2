@@ -25,8 +25,12 @@ export default function Header() {
         </div>
         <div className="hidden md:flex space-x-4">
           <Navigation />
-          <LocaleToggleButton />
-          <ThemeToggleButton />
+          <div className={"toggle-menu flex items-center justify-center"}>
+            <LocaleToggleButton />
+          </div>
+          <div className={"toggle-menu flex items-center justify-center"}>
+            <ThemeToggleButton />
+          </div>
         </div>
         <div className="md:hidden">
           <button

@@ -99,3 +99,7 @@ u {
   font-size: revert;
   font-weight: revert;
 }
+
+.toggle-menu{
+  width: 1rem;
+}
