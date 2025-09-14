@@ -19,7 +19,8 @@
       "home": "Home",
       "projects": "Projects",
       "impress": "Imprint",
-      "data_protection": "Data protection"
+      "data_protection": "Data protection",
+      "menu_aria_label": "Toggle navigation"
     }
   },
   "hero": {

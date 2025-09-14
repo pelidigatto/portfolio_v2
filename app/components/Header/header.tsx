@@ -36,6 +36,7 @@ export default function Header() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-gray-700 focus:outline-none"
+            aria-label={t("header.navigation.menu_aria_label")}
           >
             <svg
               className="w-6 h-6"
