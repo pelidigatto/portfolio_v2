@@ -4,12 +4,14 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0a0a0a;
+  --highlight: #388137;
 }
 
 [data-theme="dark"]{
     --background: #0a0a0a;
     --foreground: #ededed;
+    --highlight: #58B658;
 }
 
 html {
@@ -40,11 +42,12 @@ body,
 }
 
 .bg-hightlight {
-  background-color: #4bb74a;
+  background-color: #2b612b;
+  color: #ffff;
 }
 
 .hightlight {
-  color: #4bb74a;
+  color: var(--highlight);
 }
 .dotArea {
   display: flex;
@@ -67,7 +70,7 @@ body,
 }
 
 u {
-  text-decoration-color: #4bb74a;
+  text-decoration-color: var(--highlight);
   text-decoration-thickness: from-font;
   text-underline-offset: 3px;
 }
