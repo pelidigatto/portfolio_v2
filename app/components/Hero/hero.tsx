@@ -28,6 +28,9 @@ const Hero = () => {
             height={400}
             alt={t("core.full_name")}
             title={t("core.full_name")}
+            loading={'eager'}
+            priority={true}
+            fetchPriority={"high"}
           />
         </div>
       </div>

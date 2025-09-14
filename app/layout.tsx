@@ -33,23 +33,29 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const locale = await getLocale();
+  const isDev = process.env.NODE_ENV === "development";
+
   return (
     <>
     <html lang={locale}>
       <head>
-
         <title>Florian Thönelt | Dev</title>
-        <script
-          async
-          type="text/javascript"
-          src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"
-        ></script>
-        <script
-          defer
-          data-domain="thoenelt.dev"
-          src="https://plausible.thnlt.de/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"
-        ></script>
-
+        {
+          !isDev &&
+          <script
+            async
+            type="text/javascript"
+            src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"
+          ></script>
+        }
+        {
+          !isDev &&
+          <script
+            defer
+            data-domain="thoenelt.dev"
+            src="https://plausible.thnlt.de/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"
+          ></script>
+        }
         <link
           rel="apple-touch-icon"
           sizes="180x180"
