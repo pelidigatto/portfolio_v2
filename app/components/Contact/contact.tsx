@@ -31,7 +31,7 @@ export default function Contact() {
               href="mailto:florian@thoenelt.dev"
               title={t("contact.link_mail")}
             >
-              <FontAwesomeIcon icon={faEnvelope} className="hightlight" />
+              <FontAwesomeIcon size={"2x"} icon={faEnvelope} className="hightlight" />
             </a>
             <a
               className="w-16 p-3"
@@ -39,7 +39,7 @@ export default function Contact() {
               title={t("contact.link_github")}
               target="_blank"
             >
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon size={"2x"} icon={faGithub} />
             </a>
             <a
               className="w-16 p-3"
@@ -47,7 +47,7 @@ export default function Contact() {
               title={t("contact.link_linkedin")}
               target="_blank"
             >
-              <FontAwesomeIcon icon={faLinkedin} className="hightlight" />
+              <FontAwesomeIcon size={"2x"} icon={faLinkedin} className="hightlight" />
             </a>
             <a
               className="w-16 p-3"
@@ -55,7 +55,7 @@ export default function Contact() {
               title={t("contact.link_xing")}
               target="_blank"
             >
-              <FontAwesomeIcon icon={faXing} />
+              <FontAwesomeIcon size={"2x"} icon={faXing} />
             </a>
           </div>
         </div>
