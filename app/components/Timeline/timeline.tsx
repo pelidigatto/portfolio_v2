@@ -23,8 +23,8 @@ export default function Timeline() {
           <div className="mb-8 flex justify-start sm:justify-between flex-row sm:flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>
             <div className="z-20 flex items-center order-1 shadow rounded-full mx-1 border p-2 md:p-5 timeline_bubbles">
-              <span className="w-7">
-                <FontAwesomeIcon icon={faBriefcase} />
+              <span className="w-7 flex content-center justify-center">
+                <FontAwesomeIcon size={"2x"} icon={faBriefcase} />
               </span>
             </div>
             <div className="order-1 bg-hightlight rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
@@ -48,8 +48,8 @@ export default function Timeline() {
           <div className="mb-8 flex justify-start sm:justify-between items-center w-full right-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>
             <div className="z-20 flex items-center order-1 shadow rounded-full mx-1 border p-2 md:p-5 timeline_bubbles">
-              <span className="w-7">
-                <FontAwesomeIcon icon={faBriefcase} />
+              <span className="w-7 flex content-center justify-center">
+                <FontAwesomeIcon size={"2x"} icon={faBriefcase} />
               </span>
             </div>
             <div className="order-1 skill_container border rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
@@ -73,8 +73,8 @@ export default function Timeline() {
           <div className="mb-8 flex justify-start sm:justify-between flex-row sm:flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>
             <div className="z-20 flex items-center order-1 shadow rounded-full mx-1 border p-2 md:p-5 timeline_bubbles">
-              <span className="w-7">
-                <FontAwesomeIcon icon={faGraduationCap} />
+              <span className="w-7 flex content-center justify-center">
+                <FontAwesomeIcon size={"2x"} icon={faGraduationCap} />
               </span>
             </div>
             <div className="order-1 bg-hightlight rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
@@ -98,8 +98,8 @@ export default function Timeline() {
           <div className="mb-8 flex justify-start sm:justify-between items-center w-full right-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>
             <div className="z-20 flex items-center order-1 shadow rounded-full mx-1 border p-2 md:p-5 timeline_bubbles">
-              <span className="w-7">
-                <FontAwesomeIcon icon={faGraduationCap} />
+              <span className="w-7 flex content-center justify-center">
+                <FontAwesomeIcon size={"2x"} icon={faGraduationCap} />
               </span>
             </div>
             <div className="order-1 skill_container border rounded-lg shadow w-full  sm:w-5/12 px-6 py-4 relative">
