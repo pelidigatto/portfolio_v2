@@ -4,6 +4,10 @@ Welcome to my portfolio! My name is Florian, I am a passionate web developer fro
 You are welcome to clone the repo locally! :)
 
 ## Release Notes
+## 1.4.0
+- Introduce Versioning 
+- Domain Handling
+
 ## 1.3.1
 - Update Release Notes
 
