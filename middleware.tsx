@@ -1,5 +1,5 @@
-import { NextResponse } from 'next/server'
-import type { NextRequest } from 'next/server'
+import type { NextRequest } from "next/server";
+import { NextResponse } from "next/server";
 
 export function middleware(req: NextRequest) {
   const url = req.nextUrl
@@ -22,20 +22,31 @@ export function middleware(req: NextRequest) {
   }
 
 
+  function parseSearchQuery(query: string) {
+    const params = new URLSearchParams(query);
+    return Object.fromEntries(params.entries());
+  }
+
+  function isDebugActive(obj: Record<string, string>): boolean {
+    return obj.debug === "true";
+  }
+
   const serverInfo = {
     domain: parseHostname(host),
     hostname_local: url.hostname,
     hostname: host,
     pathname: url.pathname,
     protocol: url.protocol,
-    search: url.search,
+    searchString: url.search,
+    urlParams: parseSearchQuery(url.search),
     port: url.port,
     basePath: url.basePath,
     buildId: url.buildId,
     defaultLocale: url.defaultLocale,
     locale: url.locale,
     href: url.href,
-    origin: url.origin
+    origin: url.origin,
+    debugActive: isDebugActive(parseSearchQuery(url.search))
   }
 
   const res = NextResponse.next()
