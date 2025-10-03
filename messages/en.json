@@ -25,7 +25,7 @@
   },
   "hero": {
     "headline": "Hi, I'm Florian",
-    "sub": "A passionate full-stack <highlight>web developer</highlight> from Hanover",
+    "sub": "A passionate frontend <highlight>web developer</highlight> from Hanover",
     "dot_box": "With a passion for <highlight>web development</highlight>, I create <u>dynamic</u> and <u>user-friendly</u> <highlight>websites</highlight> and <highlight>web applications</highlight> based on the <u>latest technologies</u>."
   },
   "projects": {
@@ -52,7 +52,7 @@
   },
   "about_me": {
     "headline": "About me",
-    "sub_text1": "Hello and welcome to my portfolio. I'm Florian, a passionate <highlight>full-stack web developer</highlight> from the beautiful Lower Saxony capital of Hanover.",
+    "sub_text1": "Hello and welcome to my portfolio. I'm Florian, a passionate <highlight>frontend web developer</highlight> from the beautiful Lower Saxony capital of Hanover.",
     "sub_text2": "For me, web development is much more than just a job. It's my great <highlight>passion</highlight>, which I love to invest a lot of my free time in because it simply gives me so much joy. It's a wonderful feeling to be able to spend so much of your free time doing something that gives you so much in return.",
     "sub_text3": "Since completing my training as an <highlight>IT specialist for application development</highlight> in 2021, I have been able to gain a lot of valuable experience and continuously improve my skills.",
     "sub_text4": "In <highlight>back-end development</highlight>, I prefer to work with PHP and various frameworks such as Laravel. But here, too, I always stay on the ball and enjoy learning new things to constantly expand my skill set.",

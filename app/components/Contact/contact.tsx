@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { version } from "./../../../package.json";
 import {
   faGithub,
   faLinkedin,
@@ -58,6 +59,9 @@ export default function Contact() {
               <FontAwesomeIcon size={"2x"} icon={faXing} />
             </a>
           </div>
+        </div>
+        <div className="col-span-12 text-center font-extralight">
+          Version: {version}
         </div>
       </div>
     </>
