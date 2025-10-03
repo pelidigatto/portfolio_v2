@@ -11,7 +11,13 @@ export function middleware(req: NextRequest) {
     const tld = parts.pop() || ""
     const domain_name = parts.pop() || ""
 
-    const [test_sub, sub_domain] = parts
+    let [test_sub, sub_domain] = parts
+
+    if (test_sub && !sub_domain) {
+      sub_domain = test_sub;
+      test_sub = '';
+
+    }
 
     return {
       test_sub: test_sub || null,
