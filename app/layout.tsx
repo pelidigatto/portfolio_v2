@@ -3,6 +3,7 @@ import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale } from "next-intl/server";
 import Header from "./components/Header/header";
+import { headers } from 'next/headers'
 export const metadata: Metadata = {
   title: "Florian Thönelt | Full-Stack Webentwickler",
   description:
@@ -35,13 +36,20 @@ export default async function RootLayout({
   const locale = await getLocale();
   const isDev = process.env.NODE_ENV === "development";
 
+  const serverInfo = (await headers()).get('x-server-info')
+  const data = serverInfo ? JSON.parse(serverInfo) : {}
+
+  //On TestDomains like 12.www.....
+  const isTest = data.domain.test_sub !== null;
+  const showScripts = !isDev && !isTest;
+  
   return (
     <>
     <html lang={locale}>
       <head>
         <title>Florian Thönelt | Dev</title>
         {
-          !isDev &&
+          showScripts &&
           <script
             async
             type="text/javascript"
@@ -49,7 +57,7 @@ export default async function RootLayout({
           ></script>
         }
         {
-          !isDev &&
+          showScripts &&
           <script
             defer
             data-domain="thoenelt.dev"
