@@ -40,7 +40,7 @@ export default async function RootLayout({
   const isDev = process.env.NODE_ENV === "development";
   const isTest = serverData.domain.test_sub !== null;
   const isProd =  !isDev && !isTest;
-  const domainList = ['thoenelt.dev','florianthoenelt.de'];
+  const domainList = ['www.thoenelt.dev','www.florianthoenelt.de'];
   const isValidDomain = domainList.includes(serverData.hostname);
   const showScripts = !isDev && !isTest && isValidDomain;
 
