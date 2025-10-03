@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale } from "next-intl/server";
 import Header from "./components/Header/header";
 import { headers } from 'next/headers'
+import React from "react";
 export const metadata: Metadata = {
   title: "Florian Thönelt | Full-Stack Webentwickler",
   description:
@@ -34,14 +35,14 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const locale = await getLocale();
+  const serverInfo = (await headers()).get('x-server-info');
+  const serverData = serverInfo ? JSON.parse(serverInfo) : {};
   const isDev = process.env.NODE_ENV === "development";
-
-  const serverInfo = (await headers()).get('x-server-info')
-  const data = serverInfo ? JSON.parse(serverInfo) : {}
-
-  //On TestDomains like 12.www.....
-  const isTest = data.domain.test_sub !== null;
-  const showScripts = !isDev && !isTest;
+  const isTest = serverData.domain.test_sub !== null;
+  const isProd =  !isDev && !isTest;
+  const domainList = ['thoenelt.dev','florianthoenelt.de'];
+  const isValidDomain = domainList.includes(serverData.hostname);
+  const showScripts = !isDev && !isTest && isValidDomain;
 
   return (
     <>
@@ -60,7 +61,7 @@ export default async function RootLayout({
           showScripts &&
           <script
             defer
-            data-domain={data.hostname}
+            data-domain={serverData.hostname}
             src="https://plausible.thnlt.de/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"
           ></script>
         }
@@ -85,12 +86,27 @@ export default async function RootLayout({
           showScripts &&
           <link
             rel="manifest"
-            href={`/public/${data.hostname}.webmanifest`}
+            href={`/${serverData.hostname}.webmanifest`}
           />
         }
       </head>
       <NextIntlClientProvider>
         <body className={`antialiased`}>
+          {
+            serverData.debugActive &&
+            <div className='bg-red-500'>
+              <h2>Debug Menu:</h2>
+                <pre>
+                  {JSON.stringify(serverData, null, 2)}
+                </pre>
+                <br/>showScripts: {showScripts? 'true' : 'false'}
+                <br/>isDev: {isDev? 'true' : 'false'}
+                <br/>isTest: {isTest? 'true' : 'false'}
+                <br/>isProd: {isProd? 'true' : 'false'}
+                <br/>isValidDomain: {isValidDomain? 'true' : 'false'} ({serverData.hostname})
+               <br/>domainList: {JSON.stringify(domainList)}
+            </div>
+          }
           <Header />
           <div className="relative mx-auto lg:max-w-7xl px-2 py-1">
             {children}
