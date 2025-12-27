@@ -37,7 +37,6 @@ export default async function RootLayout({
     <>
       <html lang={locale}>
         <head>
-          <title>Florian Thönelt | Dev</title>
           {showScripts && (
             <script
               async
