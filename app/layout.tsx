@@ -59,11 +59,7 @@ export default async function RootLayout({
         }
         {
           showScripts &&
-          <script
-            defer
-            data-domain={serverData.hostname}
-            src="https://plausible.thnlt.de/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"
-          ></script>
+          <script defer src="https://umami.thnlt.de/script.js" data-website-id="efccc018-7ca3-4068-8c21-bf61236c9ebd"></script>
         }
         <link
           rel="apple-touch-icon"
