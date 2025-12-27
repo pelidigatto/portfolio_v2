@@ -26,6 +26,10 @@
       "CSS"
     ]
   },
+  "metadataProjects": {
+    "title": "Florian Thönelt | Projekte",
+    "description": "Florian Thönelt | Meine Projekte"
+  },
   "header": {
     "domain": {
       "name": "thoenelt",
@@ -50,7 +54,17 @@
   },
   "projects": {
     "headline": "Projekte",
-    "demo": "Demo"
+    "demo": "Demo",
+    "details": {
+      "go4launch": {
+        "title": "Go4Launch",
+        "description": "Go4Launch.de ist mein großes Herzensprojekt. Ziel ist es, mit Hilfe offener API-Schnittstellen eine umfassende Datenbank zur Raumfahrt aufzubauen. Derzeit wird das Projekt überarbeitet!"
+      },
+      "portfoliov1": {
+        "title": "Portfolio V1",
+        "description": "Die erste Version meines Portfolios in NextJS und Bootstrap CSS Framework."
+      }
+    }
   },
   "contact": {
     "headline": "Kontakt",
