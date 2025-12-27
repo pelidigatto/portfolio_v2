@@ -6,6 +6,26 @@
     "email": "florian@thoenelt.dev",
     "more_btn": "Mehr erfahren"
   },
+  "metadata": {
+    "title": "Florian Thönelt",
+    "description": "Florian Thönelt | Frontend-Developer from Hannover",
+    "keywords": [
+      "Webentwicklung",
+      "Webdesign",
+      "Full-Stack",
+      "Hannover",
+      "React",
+      "Next.js",
+      "TailwindCSS",
+      "Node.js",
+      "Express",
+      "MySQL",
+      "PHP",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ]
+  },
   "header": {
     "domain": {
       "name": "thoenelt",
