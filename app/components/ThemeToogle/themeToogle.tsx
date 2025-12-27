@@ -9,7 +9,11 @@ export default function ThemeToggleButton() {
 
   useEffect(() => {
     const savedTheme = sessionStorage.getItem("theme") as "light" | "dark";
-    const initialTheme = savedTheme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    const initialTheme =
+      savedTheme ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light");
     setTheme(initialTheme);
     document.documentElement.setAttribute("data-theme", initialTheme);
   }, []);

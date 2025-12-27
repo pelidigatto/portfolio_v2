@@ -2,21 +2,20 @@ import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
 export function middleware(req: NextRequest) {
-  const url = req.nextUrl
-  const host = req.headers.get('host') || 'unknown-host'
+  const url = req.nextUrl;
+  const host = req.headers.get("host") || "unknown-host";
 
   function parseHostname(hostname: string) {
-    const parts = hostname.split(".")
+    const parts = hostname.split(".");
 
-    const tld = parts.pop() || ""
-    const domain_name = parts.pop() || ""
+    const tld = parts.pop() || "";
+    const domain_name = parts.pop() || "";
 
-    let [test_sub, sub_domain] = parts
+    let [test_sub, sub_domain] = parts;
 
     if (test_sub && !sub_domain) {
       sub_domain = test_sub;
-      test_sub = '';
-
+      test_sub = "";
     }
 
     return {
@@ -24,9 +23,8 @@ export function middleware(req: NextRequest) {
       sub_domain: sub_domain || null,
       domain_name,
       tld,
-    }
+    };
   }
-
 
   function parseSearchQuery(query: string) {
     const params = new URLSearchParams(query);
@@ -52,10 +50,10 @@ export function middleware(req: NextRequest) {
     locale: url.locale,
     href: url.href,
     origin: url.origin,
-    debugActive: isDebugActive(parseSearchQuery(url.search))
-  }
+    debugActive: isDebugActive(parseSearchQuery(url.search)),
+  };
 
-  const res = NextResponse.next()
-  res.headers.set('x-server-info', JSON.stringify(serverInfo))
-  return res
+  const res = NextResponse.next();
+  res.headers.set("x-server-info", JSON.stringify(serverInfo));
+  return res;
 }

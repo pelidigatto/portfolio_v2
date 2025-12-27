@@ -16,9 +16,7 @@ export default function Timeline() {
           </div>
         </div>
         <div className="relative wrap p-2 sm:p-10 h-full ">
-          <div
-            className="absolute h-full border-0 md:border timeline"
-          ></div>
+          <div className="absolute h-full border-0 md:border timeline"></div>
 
           <div className="mb-8 flex justify-start sm:justify-between flex-row sm:flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-0  sm:w-5/12"></div>

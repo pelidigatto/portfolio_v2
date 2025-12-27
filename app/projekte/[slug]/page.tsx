@@ -12,8 +12,7 @@ export default async function Page({
     const slug = (await params).slug;
     const t = getTranslations();
 
-    const {metadata: Metadata } = await import(
-
+    const { metadata: Metadata } = await import(
       `@/content/projects/${locale}/${slug}.mdx`
     );
 
