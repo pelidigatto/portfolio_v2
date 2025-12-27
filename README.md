@@ -4,6 +4,14 @@ Welcome to my portfolio! My name is Florian, I am a passionate web developer fro
 You are welcome to clone the repo locally! :)
 
 ## Release Notes
+## 1.4.2
+- Security Updates
+- Remove Plausible
+- Add umami
+
+## 1.4.1 
+- Intoduce DebugMenu
+
 ## 1.4.0
 - Introduce Versioning 
 - Domain Handling
