@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="col-span-12 xl:col-span-3  flex justify-center my-10">
         <div className=" cvPicture shadow">
           <Image
-            src="/foto_neu.jpg"
+            src="/foto_neu.png"
             width={400}
             height={400}
             alt={t("core.full_name")}
