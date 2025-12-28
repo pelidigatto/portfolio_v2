@@ -5,9 +5,16 @@ You are welcome to clone the repo locally! :)
 
 ## Release Notes
 
+## 1.5.2
+
+- Show correct domain name
+- Loading website manifest correct
+- Add a border to hero image
+- Fix Cookie Banner Color
+
 ## 1.5.1
 
-- Remove Background of the Hero Image
+- Remove the Background of the Hero Image
 
 ## 1.5.0
 
@@ -22,7 +29,7 @@ You are welcome to clone the repo locally! :)
 
 ## 1.4.1
 
-- Intoduce DebugMenu
+- Introduce DebugMenu
 
 ## 1.4.0
 
@@ -37,7 +44,7 @@ You are welcome to clone the repo locally! :)
 
 - Fix some visual Bugs
 - Adjust text contrast
-- Use CookieScript and Plauisble only under prod
+- Use CookieScript and Plausible only under prod
 
 ## 1.2.0
 
