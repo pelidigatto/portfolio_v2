@@ -33,7 +33,9 @@
   "header": {
     "domain": {
       "name": "thoenelt",
-      "tld": ".dev"
+      "tld": ".dev",
+      "name_ftde": "florianthoenelt",
+      "tld_ftde": ".de"
     },
     "job_title": {
       "main": "Frontend",
