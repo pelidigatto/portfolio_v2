@@ -4,10 +4,13 @@ Welcome to my portfolio! My name is Florian, I am a passionate web developer fro
 You are welcome to clone the repo locally! :)
 
 ## Release Notes
+
 ## 1.5.1
+
 - Remove Background of the Hero Image
 
 ## 1.5.0
+
 - Use Metadata i18n
 - Change Hero Picture
 
