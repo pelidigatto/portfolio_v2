@@ -32,7 +32,9 @@ export default async function RootLayout({
   const domainList = ["www.thoenelt.dev", "www.florianthoenelt.de"];
   const isValidDomain = domainList.includes(serverData.hostname);
   const showScripts = !isDev && !isTest && isValidDomain;
-
+  const domain = isValidDomain
+    ? serverData.hostname.replace("www.", "")
+    : domainList[0].replace("www.", "");
   return (
     <>
       <html lang={locale}>
@@ -93,7 +95,7 @@ export default async function RootLayout({
                 domainList: {JSON.stringify(domainList)}
               </div>
             )}
-            <Header />
+            <Header domain={domain} />
             <div className="relative mx-auto lg:max-w-7xl px-2 py-1">
               {children}
             </div>

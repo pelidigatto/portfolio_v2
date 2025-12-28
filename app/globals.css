@@ -106,3 +106,9 @@ u {
 .toggle-menu {
   width: 1rem;
 }
+#cookiescript_badge {
+  background: var(--background) !important;
+}
+.cookiescriptlogo {
+  fill: var(--foreground) !important;
+}

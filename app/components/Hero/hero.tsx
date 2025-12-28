@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="col-span-12 xl:col-span-3  flex justify-center my-10">
-        <div className=" cvPicture shadow">
+        <div className=" cvPicture shadow border">
           <Image
             src="/foto_neu.png"
             width={400}

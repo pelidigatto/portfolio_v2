@@ -7,7 +7,7 @@ import ThemeToggleButton from "@/app/components/ThemeToogle/themeToogle";
 
 import { useTranslations } from "next-intl";
 
-export default function Header() {
+export default function Header(props: { domain: string }): JSX.Element {
   const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations();
   return (
@@ -15,8 +15,14 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
           <Link className="text-xl font-extralight ml-2 flex" href="/">
-            {t("header.domain.name")}
-            <span className="hightlight">{t("header.domain.tld")}</span>
+            {props.domain === "thoenelt.dev"
+              ? t("header.domain.name")
+              : t("header.domain.name_ftde")}
+            <span className="hightlight">
+              {props.domain === "thoenelt.dev"
+                ? t("header.domain.tld")
+                : t("header.domain.tld_ftde")}
+            </span>
             <div className="hidden sm:block ps-1">
               | {t("header.job_title.main")}{" "}
               <span className="hightlight">{t("header.job_title.sub")}</span>
