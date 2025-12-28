@@ -49,6 +49,8 @@ export default async function Projekte() {
                       width={400}
                       height={400}
                       className="rounded-md"
+                      loading={index === 0 ? "eager" : "lazy"}
+                      priority={index === 0}
                     />
                   </div>
                   <div className="col-span-12 my-5 font-thin">
