@@ -32,7 +32,7 @@ export default async function Projekte() {
             const { projectData: ProjectMeta } = await import(
               `@/content/projects/${d}`
             );
-            const projectSuffix = d.replace('.mdx','');
+            const projectSuffix = d.replace(".mdx", "");
             return (
               <div
                 key={index}
@@ -54,7 +54,11 @@ export default async function Projekte() {
                     />
                   </div>
                   <div className="col-span-12 my-5 font-thin">
-                    <p>{(await t)("projects.details." + projectSuffix + ".description")}</p>
+                    <p>
+                      {(await t)(
+                        "projects.details." + projectSuffix + ".description",
+                      )}
+                    </p>
                   </div>
                   <div className="cols-span-12 text-center mt-5">
                     <Btn
