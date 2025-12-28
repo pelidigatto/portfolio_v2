@@ -4,6 +4,9 @@ Welcome to my portfolio! My name is Florian, I am a passionate web developer fro
 You are welcome to clone the repo locally! :)
 
 ## Release Notes
+## 1.5.0
+- Use Metadata i18n
+- Change Hero Picture
 
 ## 1.4.2
 
