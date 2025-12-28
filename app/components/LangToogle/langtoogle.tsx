@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { setCookie } from "cookies-next";
-import {useSessionStorage} from "@/app/hooks/useSessionStorage";
+import { useSessionStorage } from "@/app/hooks/useSessionStorage";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 export default function LocaleToggleButton() {

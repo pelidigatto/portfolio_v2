@@ -8,10 +8,10 @@
   --highlight: #388137;
 }
 
-[data-theme="dark"]{
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --highlight: #58B658;
+[data-theme="dark"] {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --highlight: #58b658;
 }
 
 html {
@@ -103,6 +103,6 @@ u {
   font-weight: revert;
 }
 
-.toggle-menu{
+.toggle-menu {
   width: 1rem;
 }

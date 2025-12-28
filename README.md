@@ -4,27 +4,37 @@ Welcome to my portfolio! My name is Florian, I am a passionate web developer fro
 You are welcome to clone the repo locally! :)
 
 ## Release Notes
+## 1.5.0
+- Use Metadata i18n
+- Change Hero Picture
+
 ## 1.4.2
+
 - Security Updates
 - Remove Plausible
 - Add umami
 
-## 1.4.1 
+## 1.4.1
+
 - Intoduce DebugMenu
 
 ## 1.4.0
-- Introduce Versioning 
+
+- Introduce Versioning
 - Domain Handling
 
 ## 1.3.1
+
 - Update Release Notes
 
 ## 1.3.0
+
 - Fix some visual Bugs
 - Adjust text contrast
 - Use CookieScript and Plauisble only under prod
 
 ## 1.2.0
+
 - Add SessionStorage Hook
 - Add Theme Toggle
 - Fix some visual Bugs
