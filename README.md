@@ -4,6 +4,9 @@ Welcome to my portfolio! My name is Florian, I am a passionate web developer fro
 You are welcome to clone the repo locally! :)
 
 ## Release Notes
+## 1.5.3
+
+- Update NPM Packages 
 
 ## 1.5.2
 
