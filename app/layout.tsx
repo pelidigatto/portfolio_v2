@@ -6,6 +6,7 @@ import Header from "./components/Header/header";
 import { headers } from "next/headers";
 import React from "react";
 import { getTranslations } from "next-intl/server";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("metadata");
@@ -100,6 +101,7 @@ export default async function RootLayout({
             <div className="relative mx-auto lg:max-w-7xl px-2 py-1">
               {children}
             </div>
+            <SpeedInsights />
           </body>
         </NextIntlClientProvider>
       </html>
